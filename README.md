@@ -1,7 +1,7 @@
 - 👋 Hello I am The Malevolent One.
 - 👀 I’m interested in Video Games, Programming, Poetry and watching Netflix.
 - 📫 How to reach me. My discord is The Malevolent One#5724
-- 💻 I am currently familiar with the langauges; JavaScript and Python, I have a limited experience with HTML, CSS, PHP and C#
+- 💻 I am currently familiar with the langauges; JavaScript and Python, I have a limited experience with HTML, CSS, PHP and C#. I am currently studying C++ in university! :D
 
 <!---
 TheMalevolentOne1/TheMalevolentOne1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
