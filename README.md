@@ -22,100 +22,101 @@
 --- 
 
 ### 💻 Tech Stack:
-<table style="background-color:#0d1117; color:#c9d1d9; border-collapse: collapse; border: 1px solid #30363d;">
+<table style="background-color: #0d1117; color: #c9d1d9; border-collapse: collapse; width: 100%;">
   <tr>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://isocpp.org/" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://isocpp.org/" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++" />
+        <br><b>C++</b>
       </a>
-      <br><b>C++</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://www.python.org/doc/" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://www.python.org/doc/" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
+        <br><b>Python</b>
       </a>
-      <br><b>Python</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
+        <br><b>JavaScript</b>
       </a>
-      <br><b>JavaScript</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="48" height="48" alt="HTML5" />
+        <br><b>HTML5</b>
       </a>
-      <br><b>HTML5</b>
     </td>
   </tr>
   <tr>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="48" height="48" alt=".NET" />
+        <br><b>.NET</b>
       </a>
-      <br><b>.NET</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://nodejs.org/en/docs/" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://nodejs.org/en/docs/" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="48" height="48" alt="Node.js" />
+        <br><b>Node.js</b>
       </a>
-      <br><b>Node.js</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://docs.flutter.dev/" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://docs.flutter.dev/" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" width="48" height="48" alt="Flutter" />
+        <br><b>Flutter</b>
       </a>
-      <br><b>Flutter</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://dev.mysql.com/doc/" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://dev.mysql.com/doc/" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="48" height="48" alt="MySQL" />
+        <br><b>MySQL</b>
       </a>
-      <br><b>MySQL</b>
     </td>
   </tr>
   <tr>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://www.sqlite.org/docs.html" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://www.sqlite.org/docs.html" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="48" height="48" alt="SQLite" />
+        <br><b>SQLite</b>
       </a>
-      <br><b>SQLite</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://docs.oracle.com/en/" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://docs.oracle.com/en/" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" width="48" height="48" alt="Oracle" />
+        <br><b>Oracle</b>
       </a>
-      <br><b>Oracle</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://git-scm.com/doc" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://git-scm.com/doc" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="48" height="48" alt="Git" />
+        <br><b>Git</b>
       </a>
-      <br><b>Git</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://docs.github.com/en" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://docs.github.com/en" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" width="48" height="48" alt="GitHub" />
+        <br><b>GitHub</b>
       </a>
-      <br><b>GitHub</b>
     </td>
   </tr>
   <tr>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://www.kernel.org/doc/html/latest/" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://www.kernel.org/doc/html/latest/" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
+        <br><b>Linux</b>
       </a>
-      <br><b>Linux</b>
     </td>
-    <td align="center" width="96" style="border: 1px solid #30363d;">
-      <a href="https://code.visualstudio.com/docs" target="_blank">
+    <td align="center" width="96" style="border: 1px solid #30363d; padding: 10px;">
+      <a href="https://code.visualstudio.com/docs" target="_blank" style="color: #c9d1d9; text-decoration: none;">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg" width="48" height="48" alt="VS Code" />
+        <br><b>VS Code</b>
       </a>
-      <br><b>VS Code</b>
     </td>
   </tr>
 </table>
+
 
 
 <p align="center">
