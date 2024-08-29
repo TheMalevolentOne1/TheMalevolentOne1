@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm KCR</h1>
+<h1 align="center">Hi 👋, I'm KR</h1>
 <h3 align="center">BSc (Hons) Software Engineering Student at UCLAN</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=0e75b6&style=flat" alt="themalevolentone1" /> </p>
