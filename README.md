@@ -15,7 +15,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheMalevolentOne1&theme=github_dark&layout=compact" alt="Top Languages" />
 </p>
 
-<sub align="center">Note: The languages shown also include private repositories.</sub>
+<p align="center"><sub>Note: The languages shown also include private repositories.</sub></p>
 
 <p>
   <img src="https://github-profile-trophy.vercel.app/?username=TheMalevolentOne1&theme=darkhub" alt="GitHub Trophy Stats" />
