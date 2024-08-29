@@ -31,7 +31,7 @@
 ---
 
 ### 🌐 Connect with me:
-<p align="left">
+<p align="center">
   <a href="https://dev.to/the_malevolent_one" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Dev.to" height="30" width="40" />
   </a>
