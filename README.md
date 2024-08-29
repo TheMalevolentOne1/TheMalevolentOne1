@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm KCR</h1>
+<h1 align="center">Hi 👋, I'm The Malevolent One</h1>
 <h3 align="center">BSc (Hons) Software Engineering Student at UCLAN</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=0e75b6&style=flat" alt="themalevolentone1" /> </p>
@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **kylerobinson1467@gmail.com**
 
-<img src="https://myreadme.vercel.app/api/embed/YOURUSERNAME?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+<img src="https:/profile-readme-stats-card-j13nhwh1h-themalevolentone1s-projects.vercel.app?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
