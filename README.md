@@ -16,11 +16,6 @@
 </p>
 
 <p align="center"><sub>Note: The languages shown also include private repositories.</sub></p>
-
-<p>
-  <img align="center" src="https://github-profile-trophy.vercel.app/?username=TheMalevolentOne1&theme=darkhub" alt="GitHub Trophy Stats" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=github_dark" alt="GitHub Stats" />
-</p>
 --- 
 
 ### 💻 Tech Stack:
