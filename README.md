@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **kylerobinson1467@gmail.com**
 
-[![Top Langs]([profile-readme-stats-card-git-main-themalevolentone1s-projects.vercel.app]/api/top-langs/?username=TheMalevolentOne1)]
+[![Top Langs]([https://profile-readme-stats-card-git-main-themalevolentone1s-projects.vercel.app]/api/top-langs/?username=TheMalevolentOne1)]
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
