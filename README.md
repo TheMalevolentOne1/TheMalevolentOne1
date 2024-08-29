@@ -55,6 +55,68 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="48" height="48" alt=".NET" />
       </a>
       <br><b>.NET</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://nodejs.org/en/docs/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="48" height="48" alt="Node.js" />
+      </a>
+      <br><b>Node.js</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://docs.flutter.dev/" target="_blank">
+        <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" width="48" height="48" alt="Flutter" />
+      </a>
+      <br><b>Flutter</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://dev.mysql.com/doc/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br><b>MySQL</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://www.sqlite.org/docs.html" target="_blank">
+        <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="48" height="48" alt="SQLite" />
+      </a>
+      <br><b>SQLite</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://docs.oracle.com/en/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" width="48" height="48" alt="Oracle" />
+      </a>
+      <br><b>Oracle</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://git-scm.com/doc" target="_blank">
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="48" height="48" alt="Git" />
+      </a>
+      <br><b>Git</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://docs.github.com/en" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" width="48" height="48" alt="GitHub" />
+      </a>
+      <br><b>GitHub</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://www.kernel.org/doc/html/latest/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
+      </a>
+      <br><b>Linux</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://code.visualstudio.com/docs" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg" width="48" height="48" alt="VS Code" />
+      </a>
+      <br><b>VS Code</b>
+    </td>
+  </tr>
+</table>
+
 
 <p align="center">
   <sub>Programming Language Documentations</sub>
