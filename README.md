@@ -7,7 +7,8 @@
 
 - 📫 How to reach me **kylerobinson1467@gmail.com**
 
-<img src="https:/profile-readme-stats-card-j13nhwh1h-themalevolentone1s-projects.vercel.app?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=TheMalevolentOne1)](profile-readme-stats-card-git-main-themalevolentone1s-projects.vercel.app)
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
