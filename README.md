@@ -13,9 +13,6 @@
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheMalevolentOne1&theme=github_dark&layout=compact" alt="Top Languages" />
-</p>
-
-<p align="center">
   <sub>Note: The languages shown also include private repositories.</sub>
 </p>
 
