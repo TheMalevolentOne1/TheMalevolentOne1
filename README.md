@@ -12,7 +12,6 @@
 
 ### 📊 GitHub Stats
 <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&theme=github-dark" alt="GitHub Streak Stats" />
   <img src="https://github-profile-trophy.vercel.app/?username=TheMalevolentOne1&theme=darkhub" alt="GitHub Trophy Stats" />
   <img src="https://github-readme-stats.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=github_dark" alt="GitHub Stats" />
 </p>
