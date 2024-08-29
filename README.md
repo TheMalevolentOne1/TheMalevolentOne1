@@ -22,7 +22,39 @@
 --- 
 
 ### 💻 Tech Stack:
-<table align="center"> <tr> <td align="center" width="96"> <a href="https://isocpp.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++" /> </a> <br>C++ </td> <td align="center" width="96"> <a href="https://www.python.org/doc/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" /> </a> <br>Python </td> <td align="center" width="96"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" /> </a> <br>JavaScript </td> <td align="center" width="96"> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="48" height="48" alt="HTML5" /> </a> <br>HTML5 </td> </tr> <tr> <td align="center" width="96"> <a href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="48" height="48" alt=".NET" /> </a> <br>.NET </td> <td align="center" width="96"> <a href="https://nodejs.org/en/docs/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="48" height="48" alt="Node.js" /> </a> <br>Node.js </td> <td align="center" width="96"> <a href="https://docs.flutter.dev/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" width="48" height="48" alt="Flutter" /> </a> <br>Flutter </td> <td align="center" width="96"> <a href="https://dev.mysql.com/doc/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="48" height="48" alt="MySQL" /> </a> <br>MySQL </td> </tr> <tr> <td align="center" width="96"> <a href="https://www.sqlite.org/docs.html" target="_blank"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="48" height="48" alt="SQLite" /> </a> <br>SQLite </td> <td align="center" width="96"> <a href="https://docs.oracle.com/en/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" width="48" height="48" alt="Oracle" /> </a> <br>Oracle </td> <td align="center" width="96"> <a href="https://git-scm.com/doc" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="48" height="48" alt="Git" /> </a> <br>Git </td> <td align="center" width="96"> <a href="https://docs.github.com/en" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" width="48" height="48" alt="GitHub" /> </a> <br>GitHub </td> </tr> <tr> <td align="center" width="96"> <a href="https://www.kernel.org/doc/html/latest/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" /> </a> <br>Linux </td> <td align="center" width="96"> <a href="https://code.visualstudio.com/docs" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg" width="48" height="48" alt="VS Code" /> </a> <br>VS Code </td> </tr> </table>
+<table style="background-color:#0d1117; color:#c9d1d9; border-collapse: collapse; border: 1px solid #30363d;">
+  <tr>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://isocpp.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++" />
+      </a>
+      <br><b>C++</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://www.python.org/doc/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br><b>Python</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
+      </a>
+      <br><b>JavaScript</b>
+    </td>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="48" height="48" alt="HTML5" />
+      </a>
+      <br><b>HTML5</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96" style="border: 1px solid #30363d;">
+      <a href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="48" height="48" alt=".NET" />
+      </a>
+      <br><b>.NET</b>
 
 <p align="center">
   <sub>Programming Language Documentations</sub>
