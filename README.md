@@ -1,4 +1,6 @@
-<img align="center" src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+to+my+profile!" alt="Typing SVG" /></a>
+<div align="center">
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+to+my+profile!)](https://git.io/typing-svg)
+<\div>
 <h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
 
 <p align="center">
