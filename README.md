@@ -230,13 +230,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=15&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
 </p>
 
-<!-- Dark Mode VS Light Mode -->
-
-<!-- Animated Code Box Suggesting Theme Change -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=24&pause=2000&color=007BFF&center=true&vCenter=true&repeat=false&width=600&lines=%60%60%60markdown%0A%23%23%20Change%20the%20theme%20to%20see%20different%20styles%0A%60%60%60%0A%0A%23%23%20Try%20switching%20between%20Light%20and%20Dark%20Modes%0A%60%60%60" alt="Code Box Suggesting Theme Change">
-</p>
-
 <!-- Profile Ending Note -->
 <p align="center">
   <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=adjust&logoColor=FFFFFF" alt="Adaptive Profile" height="30" width="160"/>
