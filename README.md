@@ -10,7 +10,7 @@
 <!-- Education -->
 <h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
 
-<!-- Cute Gif Animated Thing -->
+<!-- Gif Animated Thing -->
 <p align="center">
   <kbd>
     <picture>
