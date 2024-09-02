@@ -245,8 +245,9 @@
       <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=007BFF" alt="Change Your Theme" height="40" width="120">
     </picture>
   </a>
-  <sub>✨ This profile looks different in Light and Dark Mode! ✨</sub>
 </p>
+
+<p><sub>✨ This profile looks different in Light and Dark Mode! ✨</sub></p>
 
 
 ---
