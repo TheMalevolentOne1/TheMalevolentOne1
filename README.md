@@ -3,7 +3,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!">
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!">
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!" style="border: 2px solid #ddd; border-radius: 8px; max-width: 100%; height: auto;">
   </picture>
 </p>
 
@@ -13,11 +13,12 @@
 <!-- Cute Gif Animated Thing -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width=360px>
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!">
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif">
+    <img src="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" alt="Cute Gif Animated Thing" style="border: 2px solid #ddd; border-radius: 8px; max-width: 360px; height: auto;">
   </picture>
 </p>
+
 
 ---
 
