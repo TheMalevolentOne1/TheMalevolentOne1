@@ -8,7 +8,7 @@
 </p>
 
 <!-- Education -->
-<h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
+<h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLan</a></h3>
 
 <!-- Gif Animated Thing -->
 <p align="center">
