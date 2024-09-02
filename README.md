@@ -238,7 +238,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=adjust&logoColor=007BFF" alt="Change Your Theme" height="60" width="120">
+      <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=adjust&logoColor=007BFF" alt="Change Your Theme" height="40" width="120">
       <sub>✨ This profile looks different in Light and Dark Mode! ✨</sub>
     </picture>
   </a>
