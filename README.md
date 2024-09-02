@@ -14,11 +14,9 @@
 <!-- Cute Gif Animated Thing -->
 <p align="center">
   <picture>
-    <kbd>
       <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width=250>
       <source media="(prefers-color-scheme: light)" srcset="https://giphy.com/gifs/scaler-official-monday-computer-laptop-scZPhLqaVOM1qG4lT9" width=250>
-      <img src="https://giphy.com/gifs/scaler-official-monday-computer-laptop-scZPhLqaVOM1qG4lT9">
-    </kbd>
+      <kbd><img src="https://giphy.com/gifs/scaler-official-monday-computer-laptop-scZPhLqaVOM1qG4lT9"></kbd>
   </picture>
 </p>
 
