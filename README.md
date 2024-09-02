@@ -231,7 +231,7 @@
 </p>
 
 <!-- Profile Ending Note -->
-<a href="">
+<a href="https://github.com/settings/appearance">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=56FF5A">
     <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=githubt&logoColor=007BFF">
