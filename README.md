@@ -6,15 +6,6 @@
     <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!" style="border: 2px solid #ddd; border-radius: 8px; max-width: 100%; height: auto;">
   </picture>
 </p>
-
-<!-- Education -->
-<h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
-
-<!-- Cute Gif Animated Thing -->
-<p align="center">
-  <img src="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" alt="Cute Gif Animated Thing" style="border: 2px solid #ddd; border-radius: 8px; max-width: 360px; height: auto;">
-</p>
-
 <!-- Education -->
 <h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
 
