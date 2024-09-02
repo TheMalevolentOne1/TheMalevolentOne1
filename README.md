@@ -190,33 +190,33 @@
 ### 🌐 Connect with me:
 
 <p align="center">
+  <!-- Instagram Badge -->
   <picture>
-    <!-- Instagram Badge -->
     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=56FF5A">
     <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF">
-    <!-- Stack Overflow Badge -->
+    <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="40" width="120">
+  </picture>
+  
+  <!-- Stack Overflow Badge -->
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=56FF5A">
     <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF">
-    <!-- CodeWars Badge -->
+    <img src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="40" width="120">
+  </picture>
+  
+  <!-- CodeWars Badge -->
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=56FF5A">
     <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF">
-    <!-- Discord Badge -->
+    <img src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF" alt="CodeWars" height="40" width="120">
+  </picture>
+  
+  <!-- Discord Badge -->
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=56FF5A">
     <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF">
+    <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="40" width="120">
   </picture>
-  <br/>
-  <a href="https://www.instagram.com/KCR_250904" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="40" width="120" />
-  </a>
-  <a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="40" width="120" />
-  </a>
-  <a href="https://www.codewars.com/users/The%20Malevolent%20One" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF" alt="CodeWars" height="40" width="120" />
-  </a>
-  <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="40" width="120" />
-  </a>
 </p>
 
 ---
