@@ -247,7 +247,7 @@
   </a>
 </p>
 
-<p align="center"><sub>✨ This profile looks different in Light and Dark Mode! ✨</sub></p>
+<p align="center"><sub>This profile looks different in Light and Dark Mode!</sub></p>
 
 
 ---
