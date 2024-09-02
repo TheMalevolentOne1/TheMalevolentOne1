@@ -225,8 +225,6 @@
 
 ---
 
-
-
 <!-- Thanks for checking out my profile! -->
 <p align="center">
   <picture>
