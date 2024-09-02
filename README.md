@@ -21,10 +21,17 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <picture><img src="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" alt="Top Languages">
+  <picture>
+    <!-- Dark Mode URL -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true">
+    <!-- Light Mode URL -->
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_light&hide_border=true&bg_color=ffffff&icon_color=0366d6&text_color=000000&title_color=0366d6&count_private=true">
+    <!-- Fallback Image -->
+    <img src="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" alt="Top Languages">
   </picture>
   <p align="center"><sub>Note: The languages shown also include private repositories.</sub></p>
 </p>
+
 
 --- 
 
