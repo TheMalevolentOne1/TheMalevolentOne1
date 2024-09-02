@@ -20,9 +20,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat">
     <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat"" alt="Welcome To My Profile!">
   </picture>
-  <picture>
-    <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=0e75b6&style=flat" alt="themalevolentone1">
-  </picture>
 </p>
 
 - 🌱 I’m currently learning **C++**
