@@ -1,3 +1,4 @@
+<!-- Welcome to my profile! -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!">
@@ -6,10 +7,21 @@
   </picture>
 </p>
 
+<!-- Education -->
 <h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
+
+<!-- Cute Gif Animated Thing -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!">
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
+  </picture>
+</p>
 
 ---
 
+<!-- Profile View Counter -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=56FF5A&style=flat">
@@ -18,19 +30,16 @@
   </picture>
 </p>
 
-- 🌱 I’m currently learning **C++**
 - 📫 Reach me at **[kylerobinson1467@gmail.com](mailto:kylerobinson1467@gmail.com)**
 
 ---
 
+<!-- Top Language Statistics -->
 ### 📊 GitHub Stats
 <p align="center">
   <picture>
-    <!-- Dark Mode URL -->
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true">
-    <!-- Light Mode URL -->
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_light&hide_border=true&bg_color=ffffff&icon_color=0366d6&text_color=000000&title_color=0366d6&count_private=true">
-    <!-- Fallback Image -->
     <img src="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" alt="Top Languages">
   </picture>
   <p align="center"><sub>Note: The languages shown also include private repositories.</sub></p>
@@ -39,6 +48,7 @@
 
 --- 
 
+<!-- Documentation Table -->
 ### 💻 Tech Stack:
 <table align="center"> 
   <tr> 
@@ -174,6 +184,7 @@
 
 ---
 
+<!-- Connections -->
 ### 🌐 Connect with me:
 <p align="center">
   <a href="https://dev.to/the_malevolent_one" target="_blank">
