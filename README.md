@@ -225,10 +225,14 @@
 
 ---
 
-<!-- Light and Dark Mode Message -->
+
+
+<!-- Thanks for checking out my profile! -->
 <p align="center">
   <picture>
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=15&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!">
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
   </picture>
 </p>
 
