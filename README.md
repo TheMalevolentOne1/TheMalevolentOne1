@@ -236,8 +236,4 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🔄%20Toggle%20Theme-%230A0A0A?style=for-the-badge&logo=themeisle&logoColor=FFFFFF" alt="Toggle Theme" height="40" width="160"/>
-</p>
-
 ---
