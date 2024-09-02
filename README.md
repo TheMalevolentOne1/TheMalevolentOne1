@@ -202,8 +202,6 @@
       https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black,
       https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=black
     ">
-    <!-- Fallback for older browsers -->
-    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=black" alt="Connect with me">
   </picture>
   <!-- Links with updated dark/light mode images -->
   <a href="https://dev.to/the_malevolent_one" target="_blank">
