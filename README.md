@@ -216,8 +216,8 @@
 
   <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=56FF5A">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Light%20Mode-007BFF?style=for-the-badge&logo=lightbulb&logoColor=56FF5A">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Light%20Mode-007BFF?style=for-the-badge&logo=lightbulb&logoColor=007BFF">
       <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="40" width="120">
     </picture>
   </a>
@@ -230,10 +230,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=15&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
 </p>
 
-<p align="center">
-  <a href="https://github.com/settings/appearance" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🔄%20Toggle%20Theme%20Settings-%230A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Toggle Theme Settings" height="40" width="180"/>
+<!-- Dark Mode VS Light Mode -->
+<a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=56FF5A">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF">
+      <img src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="40" width="120">
+    </picture>
   </a>
-</p>
-
 ---
