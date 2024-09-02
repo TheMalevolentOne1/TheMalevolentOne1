@@ -227,7 +227,9 @@
 
 <!-- Light and Dark Mode Message -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=15&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
+  <picture>
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=15&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
+  </picture>
 </p>
 
 <!-- Profile Ending Note -->
