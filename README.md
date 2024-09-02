@@ -204,13 +204,13 @@
     ">
   </picture>
   <a href="https://www.instagram.com/KCR_250904" target="_blank" rel="noopener noreferrer">
-    <img align="center" src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="48" width="48" />
+    <img align="center" src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="48" width="128" />
   </a>
   <a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
-    <img align="center" src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="48" width="48" />
+    <img align="center" src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="48" width="128" />
   </a>
   <a href="https://www.codewars.com/users/The%20Malevolent%20One" target="_blank" rel="noopener noreferrer">
-    <img align="center" src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF" alt="CodeWars" height="48" width="48" />
+    <img align="center" src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF" alt="CodeWars" height="48" width="128" />
   </a>
   <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
     <img align="center" src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="48" width="48" />
