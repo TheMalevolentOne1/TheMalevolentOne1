@@ -21,8 +21,6 @@
   </kbd>
 </p>
 
----
-
 <!-- Profile View Counter -->
 <p align="center">
   <picture>
@@ -31,6 +29,8 @@
     <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat"" alt="Welcome To My Profile!">
   </picture>
 </p>
+
+---
 
 - 📫 Reach me at **[kylerobinson1467@gmail.com](mailto:kylerobinson1467@gmail.com)**
 
@@ -189,15 +189,31 @@
 <!-- Connections -->
 ### 🌐 Connect with me:
 <p align="center">
+  <picture>
+    <!-- Dark Mode Icons -->
+    <source media="(prefers-color-scheme: dark)" srcset="
+      https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white,
+      https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white,
+      https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white
+    ">
+    <!-- Light Mode Icons -->
+    <source media="(prefers-color-scheme: light)" srcset="
+      https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=black,
+      https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black,
+      https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=black
+    ">
+    <!-- Fallback for older browsers -->
+    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=black" alt="Connect with me">
+  </picture>
+  <!-- Links with updated dark/light mode images -->
   <a href="https://dev.to/the_malevolent_one" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Dev.to" height="30" width="40" />
+    <img align="center" src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=black" alt="Dev.to" height="30" width="100" />
   </a>
   <a href="https://www.linkedin.com/in/kyle-robinson-4120a0326/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+    <img align="center" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn" height="30" width="100" />
   </a>
   <a href="https://www.hackerrank.com/themalevolent1" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
+    <img align="center" src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" height="30" width="100" />
   </a>
 </p>
-
 ---
