@@ -231,11 +231,14 @@
 </p>
 
 <!-- Dark Mode VS Light Mode -->
-<a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
+
+<a href="https://github.com/settings/appearance" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=56FF5A">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="40" width="120">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Light%20Mode-007BFF?style=for-the-badge&logo=lightbulb&logoColor=56FF5A">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Light%20Mode-007BFF?style=for-the-badge&logo=lightbulb&logoColor=007BFF">
+      <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="40" width="120">
     </picture>
   </a>
+</p>
+
 ---
