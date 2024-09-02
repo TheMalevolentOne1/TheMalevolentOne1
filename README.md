@@ -192,27 +192,30 @@
   <picture>
     <!-- Dark Mode Icons -->
     <source media="(prefers-color-scheme: dark)" srcset="
-      https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white,
-      https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white,
-      https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white
+      https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=white,
+      https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=white,
+      https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=white,
+      https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=white
     ">
     <!-- Light Mode Icons -->
     <source media="(prefers-color-scheme: light)" srcset="
-      https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=black,
-      https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black,
-      https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=black
+      https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=black,
+      https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=black,
+      https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=black,
+      https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=black
     ">
   </picture>
-  <!-- Links with updated dark/light mode images -->
-  <a href="https://dev.to/the_malevolent_one" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=black" alt="Dev.to" height="30" width="100" />
+  <a href="https://www.instagram.com/KCR_250904" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=black" alt="Instagram" height="30" width="100" />
   </a>
-  <a href="https://www.linkedin.com/in/kyle-robinson-4120a0326/" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn" height="30" width="100" />
+  <a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=black" alt="Stack Overflow" height="30" width="100" />
   </a>
-  <a href="https://www.hackerrank.com/themalevolent1" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" height="30" width="100" />
+  <a href="https://www.codewars.com/users/The%20Malevolent%20One" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=black" alt="CodeWars" height="30" width="100" />
+  </a>
+  <a href="https://discord.com/users/TheMalevolentOne1" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=black" alt="Discord" height="30" width="100" />
   </a>
 </p>
-
 ---
