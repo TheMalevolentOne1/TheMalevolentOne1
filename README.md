@@ -12,7 +12,7 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="![themalevolentone1's Top Languages](https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true")>
+  <img src="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=donut&show_icons=true&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" alt="Top Languages">
   <p align="center"><sub>Note: The languages shown also include private repositories.</sub></p>
 </p>
 
