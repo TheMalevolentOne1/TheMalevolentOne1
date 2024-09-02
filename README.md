@@ -227,17 +227,13 @@
 
 <!-- Light and Dark Mode Message -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
+  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=700&size=15&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Light+Mode-007BFF?style=for-the-badge&logo=lightbulb&logoColor=FFFFFF" alt="Light Mode" height="40" width="120"/>
-  <img src="https://img.shields.io/badge/Dark+Mode-56FF5A?style=for-the-badge&logo=moon&logoColor=FFFFFF" alt="Dark Mode" height="40" width="120"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Light+Mode%20Profile-%23007BFF?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Light Mode Profile">
-  <img src="https://img.shields.io/badge/Dark+Mode%20Profile-%2356FF5A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Dark Mode Profile">
+  <a href="https://github.com/settings/appearance" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🔄%20Toggle%20Theme%20Settings-%230A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Toggle Theme Settings" height="40" width="180"/>
+  </a>
 </p>
 
 <p align="center">
