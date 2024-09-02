@@ -237,15 +237,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=24&pause=2000&color=007BFF&center=true&vCenter=true&repeat=false&width=600&lines=%60%60%60markdown%0A%23%23%20Change%20the%20theme%20to%20see%20different%20styles%0A%60%60%60%0A%0A%23%23%20Try%20switching%20between%20Light%20and%20Dark%20Modes%0A%60%60%60" alt="Code Box Suggesting Theme Change">
 </p>
 
-<!-- Instructions to Change Theme -->
+<!-- Profile Ending Note -->
 <p align="center">
-  <a href="https://github.com/settings/appearance" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Explore%20Profile%20in%20Different%20Themes-%230A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="40" width="120">
-    </picture>
-  </a>
+  <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=adjust&logoColor=FFFFFF" alt="Adaptive Profile" height="30" width="160"/>
 </p>
 
+<p align="center">
+  <i>✨ This profile looks different in Light and Dark Mode! ✨</i>
+</p>
 ---
