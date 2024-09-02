@@ -8,10 +8,6 @@
 
 <h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
 
-<p align="center">
-  <img src="https://your-cute-animated-coding-gif-url.gif" alt="Cute Coding GIF" width="150">
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!">
   <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!">
