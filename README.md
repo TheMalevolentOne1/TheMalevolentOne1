@@ -186,7 +186,7 @@
 
 ---
 
-<!-- Connections -->
+[<!-- Connections -->
 ### 🌐 Connect with me:
 <p align="center">
   <picture>
@@ -217,6 +217,6 @@
   <a href="https://discord.com/users/TheMalevolentOne1" target="_blank">
     <img align="center" src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=black" alt="Discord" height="30" width="100" />
   </a>
-</p>
+</p>](https://chatgpt.com/c/9707cef3-57b6-4216-9388-869ef3d292e8)
 
 ---
