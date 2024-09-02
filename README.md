@@ -238,7 +238,7 @@
 
 <!-- Profile Ending Note -->
 <p align="center">
-  <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/settings/appearance" target="_blank" rel="noopener noreferrer">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=007BFF">
@@ -247,7 +247,7 @@
   </a>
 </p>
 
-<p><sub>✨ This profile looks different in Light and Dark Mode! ✨</sub></p>
+<p align="center"><sub>✨ This profile looks different in Light and Dark Mode! ✨</sub></p>
 
 
 ---
