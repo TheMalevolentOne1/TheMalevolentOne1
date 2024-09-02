@@ -1,5 +1,5 @@
 <p align="center">
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+to+my+profile!)]
+  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
 </p>
 
 
