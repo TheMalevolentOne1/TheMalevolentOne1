@@ -213,7 +213,7 @@
     <img align="center" src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF" alt="CodeWars" height="48" width="128" />
   </a>
   <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
-    <img align="center" src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="48" width="48" />
+    <img align="center" src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="48" width="128" />
   </a>
 </p>
 
