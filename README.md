@@ -194,7 +194,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="40" width="120">
+      <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="40" width=auto>
     </picture>
   </a>
 
@@ -202,7 +202,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="40" width="120">
+      <img src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=007BFF" alt="Stack Overflow" height="40" width=auto>
     </picture>
   </a>
 
@@ -210,7 +210,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF" alt="CodeWars" height="40" width="120">
+      <img src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&logo=codewars&logoColor=007BFF" alt="CodeWars" height="40" width=auto>
     </picture>
   </a>
 
@@ -218,7 +218,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="40" width="120">
+      <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&logo=discord&logoColor=007BFF" alt="Discord" height="40" width=auto>
     </picture>
   </a>
 </p>
@@ -240,12 +240,11 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Change%20Your%20Theme-%230A0A0A?style=for-the-badge&logo=github&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Change%20Your%20Theme-%230A0A0A?style=for-the-badge&logo=github&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=007BFF" alt="Change Your Theme" height="40" width="120">
+      <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&logo=github&logoColor=007BFF" alt="Change Your Theme" height="40" width=auto>
     </picture>
   </a>
 </p>
 
 <p align="center"><sub>This profile looks different in Light and Dark Mode!</sub></p>
-
 
 ---
