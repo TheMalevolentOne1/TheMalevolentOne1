@@ -208,6 +208,10 @@
     <!-- Fallback for browsers that do not support <picture> -->
     <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="40" width="120" />
   </picture>
+</p>
+
+<!-- Links -->
+<p align="center">
   <a href="https://www.instagram.com/KCR_250904" target="_blank" rel="noopener noreferrer">
     <img align="center" src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=007BFF" alt="Instagram" height="40" width="120" />
   </a>
