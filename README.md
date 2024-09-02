@@ -9,6 +9,17 @@
 <h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://uclan.ac.uk/" target="_blank">UCLAN</a></h3>
 
 <p align="center">
+  <img src="https://your-cute-animated-coding-gif-url.gif" alt="Cute Coding GIF" width="150">
+</p>
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=56FF5A&style=flat">
+    <source media="(prefers-color-scheme: light)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat">
+    <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat"" alt="Welcome To My Profile!">
+  </picture>
   <picture>
     <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=0e75b6&style=flat" alt="themalevolentone1">
   </picture>
