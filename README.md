@@ -186,6 +186,19 @@
 
 ---
 
+### 📝 My Notes
+<p align="center">
+  <a href="https://themalevolentone1.github.io/My-Notes-Collection" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/My_Notes-0A0A0A?style=for-the-badge&logo=book&logoColor=56FF5A">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My_Notes-0A0A0A?style=for-the-badge&logo=book&logoColor=007BFF">
+      <img src="https://img.shields.io/badge/My_Notes-0A0A0A?style=for-the-badge&logo=book&logoColor=007BFF" alt="My Notes" height="30" width="120px">
+    </picture>
+  </a>
+</p>
+
+---
+
 <!-- Connections -->
 ### 🌐 Connect with me:
 
