@@ -32,14 +32,6 @@
 
 ---
 
-### 🌐 My Notes Collection
-
-I maintain a personal **Notes Collection website** to organize and search through my study materials on topics like cybersecurity, programming, and more.
-
-📚 **Explore it here:** [My Notes Collection](https://TheMalevolentOne1.github.io/My-Notes-Collection)
-
----
-
 - 📫 Reach me at **[kylerobinson1467@gmail.com](mailto:kylerobinson1467@gmail.com)**
 
 ---
