@@ -256,35 +256,35 @@
   <p align="center">
     <a href="https://www.instagram.com/KCR_250904" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=vblack">
         <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
         <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
       </picture>
     </a>
     <a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=black">
         <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white">
         <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow">
       </picture>
     </a>
     <a href="https://www.codewars.com/users/The%20Malevolent%20One" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=black">
         <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white">
         <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars">
       </picture>
     </a>
     <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=black">
         <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
         <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
       </picture>
     </a>
     <a href="https://www.linkedin.com/in/kyle-robinson-dev/" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black">
         <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
         <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
       </picture>
@@ -294,15 +294,6 @@
 
 ---
 
-<!-- Spotify Now Playing -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://spotify-github-profile.vercel.app/api/view?uid=1189324818&cover_image=true&theme=novatorem&show_offline=false&background_color=20232a&interchange=false&bar_color=56FF5A&bar_color_cover=false">
-    <source media="(prefers-color-scheme: light)" srcset="https://spotify-github-profile.vercel.app/api/view?uid=1189324818&cover_image=true&theme=novatorem&show_offline=false&background_color=ffffff&interchange=false&bar_color=007BFF&bar_color_cover=false">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=1189324818&cover_image=true&theme=novatorem&show_offline=false&background_color=20232a&interchange=false&bar_color=56FF5A&bar_color_cover=false" alt="Spotify Now Playing">
-  </picture>
-</p>
-
 <!-- Thanks for checking out my profile! -->
 <p align="center">
   <picture>
@@ -311,6 +302,8 @@
     <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=20&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
   </picture>
 </p>
+
+---
 
 <!-- Profile Ending Note -->
 <p align="center">
