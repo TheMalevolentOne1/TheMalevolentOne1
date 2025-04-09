@@ -14,50 +14,10 @@
 <p align="center">
   <kbd>
     <picture>
-      <!-- First Rule Of Programming Dark Mode -->
-      <source media="(prefers-color-scheme: dark) and (month: 1)" srcset="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXUyYWd3ZnR3NWx4Mmc3MHBkY2o2bGk5ZGQ0bjBmc2V4ZnZpN29neCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xaO6TmgQmKEQ4516sE/giphy.gif" width=250>
-      <!-- Time To Buidl Light Mode -->
-      <source media="(prefers-color-scheme: light) and (month: 1)" srcset="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamUwdGEwdThseWt0eWRxcDB6OXo0cWNxM3oydWZ3cnd2c3JqczM5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O8AlPgbFKG1U1HLVUg/giphy.gif" width=250>
-      <!-- Eat Sleep Code Recursive Function Dark Mode -->
-      <source media="(prefers-color-scheme: dark) and (month: 2)" srcset="https://c.tenor.com/_DOBjnGspYAAAAAC/tenor.gif" width=250>
-      <!-- Cat Heavily Typing On Keyboard Light Mode -->
-      <source media="(prefers-color-scheme: light) and (month: 2)" srcset="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3lsMjZ4YnA1YjJ3Znl6Z2kzaDBlcWJsZnBxejhncnVpMHB1bGM3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lzz3B3xLZluuY/giphy.gif" width=250>
-      <!-- Cat Stealing Credit Card Info and Ordering Treats Dark Mode -->
-      <source media="(prefers-color-scheme: dark) and (month: 3)" srcset="https://c.tenor.com/rWk8ge6rvTQAAAAC/tenor.gif" width=250>
-      <!-- Coding Hello World Light Mode -->
-      <source media="(prefers-color-scheme: light) and (month: 3)" srcset="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmZ2a3I1Y2lkOXQxY2k5Ymo2MWpxbDU3NzEydTN6ZndpdHN3c2FlMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ENY5vJgJPEfG3Ym14H/giphy.gif" width=250>
-      <!-- Matrix Walking Cat Binary Dark Mode -->
-      <source media="(prefers-color-scheme: dark) and (month: 4)" srcset="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGh6d2ViMmlmc2l5OWx6MGFmOW5oMGN1M2wxaG01d3V6Mjc4b2Y2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wwg1suUiTbCY8H8vIA/giphy.gif" width=250>
-      <!-- Cat Stood On Macbook Gif Light Mode -->
-      <source media="(prefers-color-scheme: light) and (month: 4)" srcset="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzZvcGdlMDhtNDd3d3U3cGFpNWp5YWpuNTF6MXE5cDMzYWx5dTd5YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" width=250>
-      <!-- Omori The Code Won't Run Dark Mode -->
-      <source media="(prefers-color-scheme: dark) and (month: 5)" srcset="https://c.tenor.com/B08xj_wOymAAAAAC/tenor.gif" width=250>
-      <!-- Cat Fast Mac Typing (Cat Genius?) Light Mode -->
-      <source media="(prefers-color-scheme: light) and (month: 5)" srcset="https://c.tenor.com/gSfixE9nP7EAAAAC/tenor.gif" width=250>
-      <!-- Cow If Its Broke Don't Fix It Dark Mode -->
-      <source media="(prefers-color-scheme: dark) and (month: 6)" srcset="https://c.tenor.com/fJAoBHWymY4AAAAC/tenor.gif" width=250>
-      <!-- Cat Typing Screaming AAAA Light Mode -->
-      <source media="(prefers-color-scheme: light) and (month: 6)" srcset="https://c.tenor.com/7UzSLCR_x5oAAAAd/tenor.gif" width=250>
-      <!-- Dark Mode -->
-      <source media="(prefers-color-scheme: dark) and (month: 7)" srcset="https://media.giphy.com/media/INDEPENDENCE_DAY_CAT_DARK.gif" width=250>
-      <!-- Laptop Binary Scrolling Old Style Light Mode -->
-      <source media="(prefers-color-scheme: light) and (month: 7)" srcset="https://c.tenor.com/5ry-200hErMAAAAd/tenor.gif" width=250>
-      <!--
-      <source media="(prefers-color-scheme: dark) and (month: 8)" srcset="https://media.giphy.com/media/BACK_TO_SCHOOL_CAT_DARK.gif" width=250>
-      <source media="(prefers-color-scheme: light) and (month: 8)" srcset="https://media.giphy.com/media/BACK_TO_SCHOOL_CAT_LIGHT.gif" width=250>
-      <source media="(prefers-color-scheme: dark) and (month: 9)" srcset="https://media.giphy.com/media/AUTUMN_CAT_DARK.gif" width=250>
-      <source media="(prefers-color-scheme: light) and (month: 9)" srcset="https://media.giphy.com/media/AUTUMN_CAT_LIGHT.gif" width=250>
-      <source media="(prefers-color-scheme: dark) and (month: 10)" srcset="https://media.giphy.com/media/HALLOWEEN_CAT_DARK.gif" width=250>
-      <source media="(prefers-color-scheme: light) and (month: 10)" srcset="https://media.giphy.com/media/HALLOWEEN_CAT_LIGHT.gif" width=250>
-      <source media="(prefers-color-scheme: dark) and (month: 11)" srcset="https://media.giphy.com/media/THANKSGIVING_CAT_DARK.gif" width=250>
-      <source media="(prefers-color-scheme: light) and (month: 11)" srcset="https://media.giphy.com/media/THANKSGIVING_CAT_LIGHT.gif" width=250>
-      <source media="(prefers-color-scheme: dark) and (month: 12)" srcset="https://media.giphy.com/media/CHRISTMAS_CAT_DARK.gif" width=250>
-      <source media="(prefers-color-scheme: light) and (month: 12)" srcset="https://media.giphy.com/media/CHRISTMAS_CAT_LIGHT.gif" width=250>
-      -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width=250>
-      <source media="(prefers-color-scheme: light)" srcset="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width=250>
+      <source id="dark-mode-image" media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width="250">
+      <source id="light-mode-image" media="(prefers-color-scheme: light)" srcset="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width="250">
+      <img src="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width="250" alt="Seasonal Cat Meme">
       <img src="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width=250 alt="Seasonal Cat Meme">
-       <!-- TODO: Finish Month Gifs -->
     </picture>
   </kbd>
 </p>
