@@ -8,14 +8,20 @@
 </p>
 
 <!-- Education Section -->
-<h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://lancashire.ac.uk/" target="_blank">UCLan</a></h3>
+<h3 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=435&lines=BSc+(Hons)+Software+Engineering+Student+at+UCLan">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=435&lines=BSc+(Hons)+Software+Engineering+Student+at+UCLan">
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=635&lines=BSc+(Hons)+Software+Engineering+Student+at+UCLan" alt="BSc (Hons) Software Engineering Student at UCLan">
+  </picture>
+</h3>
 
 <!-- Cat Meme Section -->
 <p align="center">
   <kbd>
     <picture>
-      <source id="dark-mode-image" media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width="250">
-      <source id="light-mode-image" media="(prefers-color-scheme: light)" srcset="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width="250">
+      <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width="250">
+      <source media="(prefers-color-scheme: light)" srcset="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width="250">
       <img src="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width="250" alt="Seasonal Cat Meme">
     </picture>
   </kbd>
@@ -30,7 +36,11 @@
 
 <!-- Current Status Section -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=20&pause=1000&color=56FF5A&center=true&vCenter=true&width=500&lines=Currently+learning+Flutter+development;Working+on+personal+projects;BSc+Software+Engineering+Student" alt="Current Status">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=""https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=20&pause=1000&color=56FF5A&center=true&vCenter=true&width=500&lines=Currently+learning+Flutter+development;Working+on+personal+projects;BSc+Software+Engineering+Student" alt="Current Status"">
+    <source media="(prefers-color-scheme: light)" srcset=""https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=20&pause=1000&color=56FF5A&center=true&vCenter=true&width=500&lines=Currently+learning+Flutter+development;Working+on+personal+projects;BSc+Software+Engineering+Student" alt="Current Status"">
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=20&pause=1000&color=56FF5A&center=true&vCenter=true&width=500&lines=Currently+learning+Flutter+development;Working+on+personal+projects;BSc+Software+Engineering+Student" alt="Current Status">
+  </picture>
 </p>
 
 <!-- Contact Info Section -->
@@ -194,7 +204,10 @@
 
 <!-- Notes Website Section -->
 <details>
-  <summary><h3>📝 My Notes & Resources</h3></summary>
+  <picture
+    <souce media="(prefers-color-scheme: dark)"
+    <h3>📝 My Notes & Resources</h3>
+  </picture>
   <p align="center">
     Explore my collection of notes on programming, software engineering, and more at <a href="https://themalevolentone1.github.io/My-Notes-Collection">My Notes Collection</a>.
   </p>
@@ -203,7 +216,10 @@
   </p>
   <p align="center">
     <a href="https://themalevolentone1.github.io/My-Notes-Collection">
-      <img src="https://img.shields.io/badge/Notes_Collection-View_Online-56FF5A?style=for-the-badge&logo=github" alt="Notes Collection">
+      <picture>
+        <source srcset="https://img.shields.io/badge/Notes_Collection-View_Online-%230A0A0A?style=for-the-badge&logo=github">
+        <img src="https://img.shields.io/badge/Notes_Collection-View_Online-%230A0A0A?style=for-the-badge&logo=github" alt="Notes Collection">
+      </picture>
     </a>
   </p>
 </details>
@@ -214,36 +230,36 @@
   <p align="center">
     <a href="https://www.instagram.com/KCR_250904" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=black">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-%230A0A0A?style=for-the-badge&logo=instagram&logoColor=56FF5A">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=007BFF"">
         <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
       </picture>
     </a>
     <a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=black">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-%230A0A0A?style=for-the-badge&logo=stackoverflow&logoColor=56FF5A">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=007BFF"">
         <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow">
       </picture>
     </a>
     <a href="https://www.codewars.com/users/The%20Malevolent%20One" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=black">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Codewars-%230A0A0A?style=for-the-badge&logo=codewars&logoColor=56FF5A">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=007BFF"">
         <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars">
       </picture>
     </a>
     <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=black">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-%230A0A0A?style=for-the-badge&logo=discord&logoColor=56FF5A">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=007BFF"">
         <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
       </picture>
     </a>
     <a href="https://www.linkedin.com/in/kyle-robinson-dev/" target="_blank" rel="noopener noreferrer">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=black">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LinkedIn-%230A0A0A?style=for-the-badge&logo=linkedin&logoColor=56FF5A">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=github&logoColor=007BFF">
         <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
       </picture>
     </a>
