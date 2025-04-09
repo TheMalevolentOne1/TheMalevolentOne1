@@ -193,16 +193,6 @@
   </table>
 </details>
 
-<!-- Featured Projects Section -->
-<details>
-  <summary><h3>🚀 Featured Projects</h3></summary>
-  <p align="center">
-    <a href="https://github.com/TheMalevolentOne1/My-Notes-Collection">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=TheMalevolentOne1&repo=My-Notes-Collection&theme=github_dark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF" alt="My Notes Collection">
-    </a>
-  </p>
-</details>
-
 <!-- Notes Website Section -->
 <details>
   <summary><h3>📝 My Notes & Resources</h3></summary>
