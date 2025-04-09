@@ -53,10 +53,11 @@
       <source media="(prefers-color-scheme: light) and (month: 11)" srcset="https://media.giphy.com/media/THANKSGIVING_CAT_LIGHT.gif" width=250>
       <source media="(prefers-color-scheme: dark) and (month: 12)" srcset="https://media.giphy.com/media/CHRISTMAS_CAT_DARK.gif" width=250>
       <source media="(prefers-color-scheme: light) and (month: 12)" srcset="https://media.giphy.com/media/CHRISTMAS_CAT_LIGHT.gif" width=250>
+      -->
       <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width=250>
       <source media="(prefers-color-scheme: light)" srcset="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width=250>
       <img src="https://media0.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" width=250 alt="Seasonal Cat Meme">
-      --> <!-- TODO: Finish Month Gifs -->
+       <!-- TODO: Finish Month Gifs -->
     </picture>
   </kbd>
 </p>
