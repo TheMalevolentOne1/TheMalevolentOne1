@@ -12,7 +12,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=56FF5A&center=true&vCenter=true&repeat=false&width=635&lines=BSc+(Hons)+Software+Engineering+Student+at+UCLan">
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=30&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=635&lines=BSc+(Hons)+Software+Engineering+Student+at+UCLan">
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=25&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=1000&lines=BSc\(Hons)+Software+Engineering+Student+at+UCLan" alt="BSc (Hons) Software Engineering Student at UCLan">
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=100&size=15&pause=1000&color=007BFF&center=true&vCenter=true&repeat=false&width=1000&lines=BSc\(Hons)+Software+Engineering+Student+at+UCLan" alt="BSc (Hons) Software Engineering Student at UCLan">
   </picture>
 </h3>
 
