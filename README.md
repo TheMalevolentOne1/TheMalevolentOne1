@@ -191,7 +191,7 @@
 <p align="center">
   <a href="https://themalevolentone1.github.io/My-Notes-Collection" target="https://www.themalevolentone1.github.com/My-Notes-Collection/">
     <picture>
-      <p align="center">[Link To My Notes Collection](https://themalevolentone1.github.io/My-Notes-Collection)</p>
+      <p align="center"><a href="https://themalevolentone1.github.io/My-Notes-Collection">Link To My Notes Collection</a></p>
     </picture>
   </a>
 </p>
