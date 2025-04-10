@@ -129,7 +129,7 @@
   <tr>
     <td align="center" width="96">
       <a href="https://www.sqlite.org/docs.html" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="48" height="48" alt="SQLite">
+        <img src="https://static-00.iconduck.com/assets.00/sqlite-icon-512x227-lvdqy74k.png" width="50" height="50" alt="SQLite">
       </a>
       <br>
       <b>SQLite</b>
