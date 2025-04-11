@@ -20,7 +20,7 @@
   <kbd>
     <picture>
       <!-- Dark Mode Gif -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/originals/06/60/ef/0660efe82fa3da42ed56eef013171835.gif" width="250">
+      <source media="(prefers-color-scheme: dark)" srcset="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHE3MGYzdjQ2b3E0c3FweGZkd3Y1bXMzZjVld2hxdXhicXJna3ZxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wwg1suUiTbCY8H8vIA/giphy.gif" width="250">
       <!-- Light Mode Gif -->
       <source media="(prefers-color-scheme: light)" srcset="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhyYTFpejd0Zm9sbDZxZWNnaWllbmViN2c4OWZzdmRuYTN6ZW1wYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/scZPhLqaVOM1qG4lT9/giphy.webp" width="250">
       <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhyYTFpejd0Zm9sbDZxZWNnaWllbmViN2c4OWZzdmRuYTN6ZW1wYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/scZPhLqaVOM1qG4lT9/giphy.webp" alt="Animated Gif">
