@@ -90,7 +90,7 @@
     </td> 
     <td align="center" width="96"> 
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="48" height="48" alt="HTML5"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5"> 
       </a> 
       <br>
       <b>HTML5</b>
@@ -99,14 +99,14 @@
   <tr>
     <td align="center" width="96">
       <a href="https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" width="48" height="48" alt=".NET">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg" width="48" height="48" alt=".NET">
       </a> 
       <br>
       <b>.NET</b>
     </td>
     <td align="center" width="96"> 
       <a href="https://nodejs.org/en/docs/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="48" height="48" alt="Node.js"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js"> 
       </a> 
       <br>
       <b>Node.js</b>
@@ -120,7 +120,7 @@
     </td>
     <td align="center" width="96"> 
       <a href="https://dev.mysql.com/doc/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="48" height="48" alt="MySQL">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="48" height="48" alt="MySQL">
       </a>
       <br>
       <b>MySQL</b>
@@ -129,7 +129,7 @@
   <tr>
     <td align="center" width="96">
       <a href="https://www.sqlite.org/docs.html" target="_blank">
-        <img src="https://static-00.iconduck.com/assets.00/sqlite-icon-512x227-lvdqy74k.png" width="50" height="50" alt="SQLite">
+        <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="48" height="48" alt="SQLite">
       </a>
       <br>
       <b>SQLite</b>
@@ -150,7 +150,7 @@
     </td>
     <td align="center" width="96">
       <a href="https://docs.github.com/en" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" width="48" height="48" alt="GitHub">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="48" height="48" alt="GitHub">
       </a>
       <br>
       <b>GitHub</b>
@@ -166,15 +166,130 @@
     </td>
     <td align="center" width="96"> 
       <a href="https://code.visualstudio.com/docs" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg" width="48" height="48" alt="VS Code">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="48" height="48" alt="VS Code">
       </a>
       <br>
       <b>VS Code</b>
     </td>
+    <td align="center" width="96">
+      <a href="https://cheatsheetseries.owasp.org/" target="_blank">
+        <img src="https://owasp.org/www--site-theme/favicon.ico" width="48" height="48" alt="OWASP Cheat Sheets">
+      </a>
+      <br>
+      <b>OWASP Cheat Sheets</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://portswigger.net/burp/documentation" target="_blank">
+        <img src="https://portswigger.net/favicon.ico" width="48" height="48" alt="Burp Suite">
+      </a>
+      <br>
+      <b>Burp Suite</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://www.wireshark.org/docs/" target="_blank">
+        <img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" width="48" height="48" alt="Wireshark">
+      </a>
+      <br>
+      <b>Wireshark</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://nmap.org/book/man.html" target="_blank">
+        <img src="https://nmap.org/images/nmap-logo-64px.png" width="48" height="48" alt="Nmap">
+      </a>
+      <br>
+      <b>Nmap</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.metasploit.com/" target="_blank">
+        <img src="https://www.metasploit.com/includes/images/favicon.ico" width="48" height="48" alt="Metasploit">
+      </a>
+      <br>
+      <b>Metasploit</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.kali.org/docs/" target="_blank">
+        <img src="https://www.kali.org/images/favicon.ico" width="48" height="48" alt="Kali Linux">
+      </a>
+      <br>
+      <b>Kali Linux</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://docs.docker.com/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48" height="48" alt="Docker">
+      </a>
+      <br>
+      <b>Docker</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://kubernetes.io/docs/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="48" height="48" alt="Kubernetes">
+      </a>
+      <br>
+      <b>Kubernetes</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.postgresql.org/docs/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL">
+      </a>
+      <br>
+      <b>PostgreSQL</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.mongodb.com/docs/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB">
+      </a>
+      <br>
+      <b>MongoDB</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://docs.aws.amazon.com/" target="_blank">
+        <img src="https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Emblem.png" width="48" height="48" alt="AWS">
+      </a>
+      <br>
+      <b>AWS</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://react.dev/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="48" height="48" alt="React">
+      </a>
+      <br>
+      <b>React</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.typescriptlang.org/docs/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript">
+      </a>
+      <br>
+      <b>TypeScript</b>
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.gnu.org/software/bash/manual/" target="_blank">
+        <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" width="48" height="48" alt="Bash">
+      </a>
+      <br>
+      <b>Bash</b>
+    </td>
   </tr>
 </table>
 <p align="center">
-  <sub>Documentation Links</sub>
+  <sub>
+    <picture>
+      <!-- Dark Mode -->
+      <source media="(prefers-color-scheme: dark)" 
+        srcset="https://img.shields.io/badge/Documentation_Links-56FF5A?style=flat">
+      <!-- Light Mode -->
+      <source media="(prefers-color-scheme: light)" 
+        srcset="https://img.shields.io/badge/Documentation_Links-007BFF?style=flat">
+      <!-- Fallback -->
+      <img src="https://img.shields.io/badge/Documentation_Links-007BFF?style=flat">
+    </picture>
+  </sub>
 </p>
 
 ---
