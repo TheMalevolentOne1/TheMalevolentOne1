@@ -296,17 +296,7 @@
 
 <!-- My Notes Collection -->
 ### 📝 My Notes
-<p align="center">
-  <a href="https://themalevolentone1.github.io/My-Notes-Collection" target="_blank">
-    <picture>
-      <!-- Dark Mode Badge -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/My_Notes-0A0A0A?style=for-the-badge&amp;logo=book&amp;logoColor=56FF5A">
-      <!-- Light Mode Badge -->
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/My_Notes-0A0A0A?style=for-the-badge&amp;logo=book&amp;logoColor=007BFF">
-      <img src="https://img.shields.io/badge/My_Notes-0A0A0A?style=for-the-badge&amp;logo=book&amp;logoColor=007BFF" alt="My Notes" height="30" width="120">
-    </picture>
-  </a>
-</p>
+<p align="center"> <a href="https://themalevolentone1.github.io/My-Notes-Collection/Study%20Notes%20Contents.html" target="_blank"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Explore_Notes-1C2526?style=for-the-badge&logo=book-open&logoColor=4CAF50&labelColor=1C2526"> <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Explore_Notes-1C2526?style=for-the-badge&logo=book-open&logoColor=0288D1&labelColor=1C2526"> <img src="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMCAzaDZhNCA0IDAgMCAxIDQgNHYxNGEzIDMgMCAwIDAtMy0zaC0yem0yMiAzaC02YTQgNCAwIDAgMC00IDR2MTRhMyAzIDAgMCAxIDMtM2g3em0tMjIgMGgyMm0wIDBoLTIybTAtMGgyMiIvPjwvc3ZnPg==" alt="Explore My Notes Collection" height="35" width="160"> </picture> </a> </p>
 
 ---
 
