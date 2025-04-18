@@ -294,9 +294,17 @@
 
 ---
 
-<!-- My Notes Collection -->
-### 📝 My Notes
-<p align="center"> <a href="https://themalevolentone1.github.io/My-Notes-Collection/Study%20Notes%20Contents.html" target="_blank"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Explore_Notes-1C2526?style=for-the-badge&logo=book-open&logoColor=4CAF50&labelColor=1C2526"> <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Explore_Notes-1C2526?style=for-the-badge&logo=book-open&logoColor=0288D1&labelColor=1C2526"> <img src="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs" alt="Explore My Notes Collection" height="35" width="160"> </picture> </a> </p>
+<!-- My Notes Collection Website -->
+# 📚 My Notes Collection
+<p align="center">
+  <a href="https://themalevolentone1.github.io/My-Notes-Collection/Study%20Notes%20Contents.html" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=4CAF50">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=0288D1">
+      <img src="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=0288D1" alt="Explore My Notes Collection" height="35">
+    </picture>
+  </a>
+</p>
 
 ---
 
