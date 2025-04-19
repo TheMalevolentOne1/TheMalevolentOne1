@@ -13,7 +13,13 @@
 </p>
 
 <!-- Profile Description -->
-<h3 align="center">BSc (Hons) Software Engineering Student at <a href="https://lancashire.ac.uk/" target="_blank">UCLan</a></h3>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://placehold.co/450x40/transparent/56FF5A?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student">
+    <source media="(prefers-color-scheme: light)" srcset="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student">
+    <img src="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student" alt="BSc (Hons) Software Engineering Student" align="center">
+  </picture>
+</p>
 
 <!-- Animated Gif Section -->
 <p align="center">
