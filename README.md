@@ -14,7 +14,7 @@
 
 <!-- Profile Description -->
 <p align="center">
-  <a href="https://www.lancashire.ac.uk"><picture>
+  <a href="#"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://placehold.co/450x40/transparent/56FF5A?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student">
     <source media="(prefers-color-scheme: light)" srcset="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student">
     <img src="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student" alt="BSc (Hons) Software Engineering Student" align="center">
