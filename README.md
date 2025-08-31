@@ -356,6 +356,16 @@
       <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&amp;logo=discord&amp;logoColor=007BFF" alt="Discord" height="30" width="120">
     </picture>
   </a>
+
+  <a href="https://www.hackerrank.com/profile/TheMalevolent1" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <!-- Dark Mode -->
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/HackerRank-0A0A0A?style=for-the-badge&amp;logo=hackerrank&amp;logoColor=56FF5A">
+      <!-- Light Mode -->
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/HackerRank-0A0A0A?style=for-the-badge&amp;logo=hackerrank&amp;logoColor=007BFF">
+      <img src="https://img.shields.io/badge/HackerRank-0A0A0A?style=for-the-badge&amp;logo=hackerrank&amp;logoColor=007BFF" alt="Discord" height="30" width="120">
+    </picture>
+  </a>
 </p>
 
 ---
