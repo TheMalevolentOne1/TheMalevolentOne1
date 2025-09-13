@@ -320,7 +320,7 @@
 <!-- Social Connections -->
 ### 🌐 Connect with me:
 <p align="center">
-  <a href="https://www.instagram.com/KCR_250904" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/tm02504" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&amp;logo=instagram&amp;logoColor=56FF5A">
