@@ -374,15 +374,17 @@
       <img src="https://img.shields.io/badge/LeetCode-0A0A0A?style=for-the-badge&amp;logo=leetcode&amp;logoColor=007BFF" alt="Leed Code Logo" height="30" width="120">
     </picture>
   </a>
+  
   <a href="https://www.codecademy.com/profiles/theMalevolentOne8957693335" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LeetCode-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=56FF5A">
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Codecademy-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=56FF5A">
       <!-- Light Mode -->
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Codecademy-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=007BFF">
       <img src="https://img.shields.io/badge/Codecademy-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=007BFF" alt="Leed Code Logo" height="30" width="120">
     </picture>
   </a>
+  
 </p>
 
 ---
