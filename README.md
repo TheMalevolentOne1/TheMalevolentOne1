@@ -283,6 +283,9 @@
     </td>
   </tr>
 </table>
+
+<!-- Documentation Links -->
+
 <p align="center">
   <sub>
     <picture>
@@ -326,7 +329,6 @@
       <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&amp;logo=instagram&amp;logoColor=007BFF" alt="Instagram Logo" height="30" width="120">
     </picture>
   </a>
-
   <a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
@@ -336,7 +338,6 @@
       <img src="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&amp;logo=stackoverflow&amp;logoColor=007BFF" alt="Stack Overflow Logo" height="30" width="120">
     </picture>
   </a>
-
   <a href="https://www.codewars.com/users/The%20Malevolent%20One" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
@@ -346,7 +347,6 @@
       <img src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&amp;logo=codewars&amp;logoColor=007BFF" alt="CodeWars Logo" height="30" width="120">
     </picture>
   </a>
-
   <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
@@ -356,7 +356,6 @@
       <img src="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&amp;logo=discord&amp;logoColor=007BFF" alt="Discord Logo" height="30" width="120">
     </picture>
   </a>
-
   <a href="https://www.hackerrank.com/profile/TheMalevolent1" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
@@ -366,7 +365,6 @@
       <img src="https://img.shields.io/badge/HackerRank-0A0A0A?style=for-the-badge&amp;logo=hackerrank&amp;logoColor=007BFF" alt="HackerRank Logo" height="30" width="120">
     </picture>
   </a>
-
   <a href="https://leetcode.com/u/themalevolentone1" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
@@ -374,6 +372,15 @@
       <!-- Light Mode -->
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/LeetCode-0A0A0A?style=for-the-badge&amp;logo=leetcode&amp;logoColor=007BFF">
       <img src="https://img.shields.io/badge/LeetCode-0A0A0A?style=for-the-badge&amp;logo=leetcode&amp;logoColor=007BFF" alt="Leed Code Logo" height="30" width="120">
+    </picture>
+  </a>
+  <a href="https://www.codecademy.com/profiles/theMalevolentOne8957693335" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <!-- Dark Mode -->
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LeetCode-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=56FF5A">
+      <!-- Light Mode -->
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Codecademy-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=007BFF">
+      <img src="https://img.shields.io/badge/Codecademy-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=007BFF" alt="Leed Code Logo" height="30" width="120">
     </picture>
   </a>
 </p>
