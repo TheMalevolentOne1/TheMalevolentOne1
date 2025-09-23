@@ -58,7 +58,7 @@
   <picture>
     <!-- Dark Mode Stats -->
     <source media="(prefers-color-scheme: dark)" 
-      srcset="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=donut&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true">
+      srcset="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&layout=pie&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true">
     <!-- Light Mode Stats -->
     <source media="(prefers-color-scheme: light)" 
       srcset="https://github-readme-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=donut&amp;show_icons=true&amp;theme=github_light&amp;hide_border=true&amp;bg_color=ffffff&amp;icon_color=0366d6&amp;text_color=000000&amp;title_color=0366d6&amp;count_private=true">
