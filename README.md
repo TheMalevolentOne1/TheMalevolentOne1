@@ -402,17 +402,3 @@
     <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=15&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Thanks+for+checking+out+my+profile!" alt="Thanks for checking out my profile!">
   </picture>
 </p>
-
-<p align="center">
-  <a href="https://github.com/settings/appearance" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <!-- Dark Mode -->
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Change%20Your%20Theme-%230A0A0A?style=for-the-badge&amp;logo=github&amp;logoColor=56FF5A">
-      <!-- Light Mode -->
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Change%20Your%20Theme-%230A0A0A?style=for-the-badge&amp;logo=github&amp;logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Adaptive%20Profile-%230A0A0A?style=for-the-badge&amp;logo=github&amp;logoColor=007BFF" alt="Change Your Theme" height="30" width="150">
-    </picture>
-  </a>
-</p>
-
-<p align="center"><sub>This profile looks different in Light and Dark Mode!</sub></p>
