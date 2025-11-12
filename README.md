@@ -347,7 +347,7 @@
       <img src="https://img.shields.io/badge/CodeWars-0A0A0A?style=for-the-badge&amp;logo=codewars&amp;logoColor=007BFF" alt="CodeWars Logo" height="30" width="120">
     </picture>
   </a>
-  <a href="https://discord.com/users/TheMalevolentOne1" target="_blank" rel="noopener noreferrer">
+  <a href="https://discord.com/users/TheMalevolent2" target="_blank" rel="noopener noreferrer">
     <picture>
       <!-- Dark Mode -->
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Discord-0A0A0A?style=for-the-badge&amp;logo=discord&amp;logoColor=56FF5A">
