@@ -387,21 +387,9 @@
 
   <a href="https://www.boot.dev/u/identicalconcept15" target="_blank" rel="noopener noreferrer">
   <picture>
-    <!-- Dark Mode -->
-    <source 
-      media="(prefers-color-scheme: dark)" 
-      srcset="https://img.shields.io/badge/Boot.dev-0A0A0A?style=for-the-badge&logo=python&logoColor=56FF5A">
-    
-    <!-- Light Mode -->
-    <source 
-      media="(prefers-color-scheme: light)" 
-      srcset="https://img.shields.io/badge/Boot.dev-FFFFFF?style=for-the-badge&logo=python&logoColor=007BFF">
-
-    <img 
-      src="https://img.shields.io/badge/Boot.dev-FFFFFF?style=for-the-badge&logo=python&logoColor=007BFF"
-      alt="Boot.dev Badge"
-      height="30"
-      width="150">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Boot.dev-0A0A0A?style=for-the-badge&logo=python&logoColor=56FF5A">
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Boot.dev-FFFFFF?style=for-the-badge&logo=python&logoColor=007BFF">
+    <img src="https://img.shields.io/badge/Boot.dev-FFFFFF?style=for-the-badge&logo=python&logoColor=007BFF"alt="Boot.dev Badge"height="30"width="150">
   </picture>
 </a>
 
