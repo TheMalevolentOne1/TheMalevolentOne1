@@ -47,6 +47,12 @@
 
 ---
 
+<picture>
+  ![](https://monkeytype-github-profile.deno.dev/profile/themalevolentone)
+</picture>
+
+---
+
 <!-- Contact Information -->
 - 📫 Reach me at **[themalevolentone1kr@gmail.com](mailto:themalevolentone1kr@gmail.com)**
 
