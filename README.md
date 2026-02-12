@@ -51,9 +51,9 @@
 <p align="center">
   <picture>
     <!-- Dark Mode -->
-    <source media="(prefers-color-scheme: dark)" srcset="">
+    <source media="(prefers-color-scheme: dark)" srcset="https://monkeytype-github-profile.deno.dev/profile/themalevolentone">
     <!-- Light Mode -->
-    <source media="(prefers-color-scheme: light)" srcset="">
+    <source media="(prefers-color-scheme: light)" srcset="https://monkeytype-github-profile.deno.dev/profile/themalevolentone">
     <img src="https://monkeytype-github-profile.deno.dev/profile/themalevolentone" alt="Profile views">
   </picture>
 </p>
