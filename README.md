@@ -47,9 +47,16 @@
 
 ---
 
-<picture>
-  ![](https://monkeytype-github-profile.deno.dev/profile/themalevolentone)
-</picture>
+<!-- Monkey Typing Statistics -->
+<p align="center">
+  <picture>
+    <!-- Dark Mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="">
+    <!-- Light Mode -->
+    <source media="(prefers-color-scheme: light)" srcset="">
+    <img src="https://monkeytype-github-profile.deno.dev/profile/themalevolentone" alt="Profile views">
+  </picture>
+</p>
 
 ---
 
