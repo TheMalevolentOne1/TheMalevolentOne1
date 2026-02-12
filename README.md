@@ -45,8 +45,6 @@
   </picture>
 </p>
 
----
-
 <!-- Monkey Typing Statistics -->
 <p align="center">
   <picture>
