@@ -53,14 +53,35 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api?username=TheMalevolentOne1&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true&amp;show=reviews,discussions_started,prs_merged,prs_merged_percentage&amp;rank_icon=github">
-  <source media="(prefers-color-scheme: light)" srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api?username=TheMalevolentOne1&amp;show_icons=true&amp;theme=github_light&amp;hide_border=true&amp;bg_color=ffffff&amp;icon_color=0366d6&amp;text_color=000000&amp;title_color=0366d6&amp;count_private=true&amp;include_all_commits=true&amp;show=reviews,discussions_started,prs_merged,prs_merged_percentage&amp;rank_icon=github">
-  <img src="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api?username=TheMalevolentOne1&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true&amp;show=reviews,discussions_started,prs_merged,prs_merged_percentage&amp;rank_icon=github" alt="GitHub Stats" height="180">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api?username=TheMalevolentOne1&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true&rank_icon=github"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api?username=TheMalevolentOne1&amp;show_icons=true&amp;theme=github_light&amp;hide_border=true&amp;bg_color=ffffff&amp;icon_color=0366d6&amp;text_color=000000&amp;title_color=0366d6&amp;count_private=true&amp;include_all_commits=true&rank_icon=github"
+  >
+  <img
+    src="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api?username=TheMalevolentOne1&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true&rank_icon=github"
+    alt="GitHub Stats"
+    height="180"
+  >
 </picture>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&amp;theme=onedark&amp;hide_border=true&amp;background=20232a&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&amp;theme=github-light&amp;hide_border=true&amp;background=ffffff&amp;ring=0366d6&amp;fire=0366d6&amp;currStreakLabel=0366d6">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&amp;theme=onedark&amp;hide_border=true&amp;background=20232a&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF" alt="GitHub Streak" height="180">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&amp;theme=onedark&amp;hide_border=true&amp;background=20232a&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&amp;theme=github-light&amp;hide_border=true&amp;background=ffffff&amp;ring=0366d6&amp;fire=0366d6&amp;currStreakLabel=0366d6"
+  >
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&amp;theme=onedark&amp;hide_border=true&amp;background=20232a&amp;ring=58A6FF&amp;fire=58A6FF&amp;currStreakLabel=58A6FF"
+    alt="GitHub Streak"
+    height="180"
+  >
 </picture>
 
 </div>
@@ -68,9 +89,19 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=github_light&amp;hide_border=true&amp;bg_color=ffffff&amp;icon_color=0366d6&amp;text_color=000000&amp;title_color=0366d6&amp;count_private=true&amp;include_all_commits=true">
-  <img src="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true" alt="Top Languages" height="180">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=github_light&amp;hide_border=true&amp;bg_color=ffffff&amp;icon_color=0366d6&amp;text_color=000000&amp;title_color=0366d6&amp;count_private=true&amp;include_all_commits=true"
+  >
+  <img
+    src="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true"
+    alt="Top Languages"
+    height="180"
+  >
 </picture>
 
 </div>
