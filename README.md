@@ -91,14 +91,14 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true"
+    srcset="https://profile-stats-coxgohvwe-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true"
   >
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=github_light&amp;hide_border=true&amp;bg_color=ffffff&amp;icon_color=0366d6&amp;text_color=000000&amp;title_color=0366d6&amp;count_private=true&amp;include_all_commits=true"
+    srcset="https://profile-stats-coxgohvwe-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=github_light&amp;hide_border=true&amp;bg_color=ffffff&amp;icon_color=0366d6&amp;text_color=000000&amp;title_color=0366d6&amp;count_private=true&amp;include_all_commits=true"
   >
   <img
-    src="https://profile-stats-git-main-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true"
+    src="https://profile-stats-coxgohvwe-themalevolentone1s-projects.vercel.app/api/top-langs/?username=TheMalevolentOne1&amp;layout=compact&amp;langs_count=8&amp;show_icons=true&amp;theme=onedark&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;include_all_commits=true"
     alt="Top Languages"
     height="180"
   >
