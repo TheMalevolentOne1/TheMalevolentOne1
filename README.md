@@ -91,13 +91,13 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://profile-stats-tau.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=codeSTACKr&count_private=true">
+    srcset="https://github-stats-extended.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=10&theme=codeSTACKr">
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://profile-stats-tau.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=swift&count_private=true"
+    srcset="https://github-stats-extended.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=10&theme=swift"
   >
   <img
-    src="https://profile-stats-tau.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=swift&count_private=true"
+    src="https://github-stats-extended.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=10&theme=swift"
     alt="Top Languages"
     height="180"
   >
