@@ -166,7 +166,7 @@
     <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=FF4655" alt="TryHackMe" height="30">
   </a>
 </p>
-<p align="center"><sub>Active on both — see my <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">HackTheBox notes</a> and <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">TryHackMe notes</a></sub></p>
+<p align="center"><sub>See my <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">HackTheBox notes</a> and <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">TryHackMe notes</a></sub></p>
 
 <!-- Documentation Links -->
 <p align="center">
