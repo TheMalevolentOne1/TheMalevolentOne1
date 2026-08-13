@@ -41,9 +41,20 @@
 <!-- Monkey Typing Statistics -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://monkeytype-github-profile.deno.dev/profile/themalevolentone">
-    <source media="(prefers-color-scheme: light)" srcset="https://monkeytype-github-profile.deno.dev/profile/themalevolentone">
-    <a href="https://monkeytype.com/profile/TheMalevolentOne"><img src="https://monkeytype-github-profile.deno.dev/profile/themalevolentone" alt="Monkeytype Stats"></a>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://monkeytype-github-profile.deno.dev/profile/themalevolentone"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://monkeytype-github-profile.deno.dev/profile/themalevolentone"
+    >
+    <a href="https://monkeytype.com/profile/TheMalevolentOne">
+      <img
+        src="https://monkeytype-github-profile.deno.dev/profile/themalevolentone"
+        alt="Monkeytype Stats"
+      >
+    </a>
   </picture>
 </p>
 
