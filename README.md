@@ -55,14 +55,14 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://profile-stats-phi.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github"
+    srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github"
   >
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://profile-stats-phi.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=github_light&hide_border=true&bg_color=ffffff&icon_color=0366d6&text_color=000000&title_color=0366d6&count_private=true&include_all_commits=true&rank_icon=github"
+    srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=github_light&hide_border=true&bg_color=ffffff&icon_color=0366d6&text_color=000000&title_color=0366d6&count_private=true&include_all_commits=true&rank_icon=github"
   >
   <img
-    src="https://profile-stats-phi.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github"
+    src="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github"
     alt="GitHub Stats"
     height="180"
   >
@@ -91,13 +91,13 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://profile-stats-phi.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=codeSTACKr&count_private=true">
+    srcset="https://profile-stats-tau.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=codeSTACKr&count_private=true">
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://profile-stats-phi.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=swift&count_private=true"
+    srcset="https://profile-stats-tau.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=swift&count_private=true"
   >
   <img
-    src="https://profile-stats-phi.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=swift&count_private=true"
+    src="https://profile-stats-tau.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&hide_title=true&langs_count=10&theme=swift&count_private=true"
     alt="Top Languages"
     height="180"
   >
