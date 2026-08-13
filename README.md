@@ -84,6 +84,8 @@
   >
 </picture>
 
+<p align="center"><sub>Stats above include private repositories</sub></p>
+
 </div>
 
 <div align="center">
@@ -104,9 +106,6 @@
 </picture>
 
 </div>
-
-<p align="center"><sub>Stats include private repositories</sub></p>
-
 <!-- Tech Stack Section (icons only, centred, each links to official docs) -->
 ### 💻 Tech Stack
 
