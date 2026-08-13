@@ -47,7 +47,7 @@
   </picture>
 </p>
 
-<!-- GitHub Statistics -->
+<!-- GitHub Statistics. -->
 ### 📊 GitHub Stats
 
 <div align="center">
