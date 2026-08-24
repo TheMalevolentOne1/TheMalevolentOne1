@@ -278,6 +278,21 @@ A living hub of study notes, guides, and CTF write-ups covering cyber security, 
       <img src="https://img.shields.io/badge/TryHackMe-0A0A0A?style=for-the-badge&amp;logo=tryhackme&amp;logoColor=007BFF" alt="TryHackMe Logo" height="30" width="120">
     </picture>
   </a>
+  <a href="https://coddy.tech/user/TheMalevolentOne" target="_blank" rel="noopener noreferrer">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://img.shields.io/badge/Coddy.tech-0A0A0A?style=for-the-badge&amp;logo=shield&amp;logoColor=56FF5A">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://img.shields.io/badge/Coddy.tech-0A0A0A?style=for-the-badge&amp;logo=shield&amp;logoColor=007BFF">
+    <img
+      src="https://img.shields.io/badge/Coddy.tech-0A0A0A?style=for-the-badge&amp;logo=shield&amp;logoColor=007BFF"
+      alt="Coddy.tech"
+      height="30"
+      width="140">
+  </picture>
+</a>
 </p>
 
 <!-- Closing Section -->
