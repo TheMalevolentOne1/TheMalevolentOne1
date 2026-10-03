@@ -78,7 +78,7 @@ function extractStats(data) {
   const pb = data.personalBests?.time || {};
   const stats = data.typingStats || {};
 
-  const modes = ["15", "30", "60"];
+  const modes = ["15", "30", "60", "120"];
   const results = {};
   for (const mode of modes) {
     const best = bestPb(pb[mode]);
