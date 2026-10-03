@@ -31,9 +31,9 @@
 
 <!-- Profile View Counter -->
 <p align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=TheMalevolentOne1&label=Profile%20views&color=56FF5A&style=flat">
-  <source media="(prefers-color-scheme: light)" srcset="https://komarev.com/ghpvc/?username=TheMalevolentOne1&label=Profile%20views&color=007BFF&style=flat">
-  <img src="https://komarev.com/ghpvc/?username=TheMalevolentOne1&label=Profile%20views&color=007BFF&style=flat" alt="Profile views">
+  <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=56FF5A&style=flat">
+  <source media="(prefers-color-scheme: light)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat">
+  <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat" alt="Profile views">
 </p>
 
 <!-- Monkey Typing Statistics -->
