@@ -2,8 +2,6 @@
 /**
  * Generates Monkeytype stats SVGs (dark + light) for a GitHub profile README.
  * Uses the public profile endpoint – no ApeKey required for basic stats.
- *
- * Optional: set MONKEYTYPE_APE_KEY if you ever need authenticated endpoints.
  */
 
 import { writeFileSync, mkdirSync } from "node:fs";
