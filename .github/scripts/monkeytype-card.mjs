@@ -136,7 +136,7 @@ function renderSvg(stats, themeName) {
   });
 
   // Right side summary
-  const rightX = 400;
+  const rightX = 500;
   const summary = `
     <text x="${rightX}" y="78" text-anchor="middle" fill="${t.label}" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">TESTS</text>
     <text x="${rightX}" y="100" text-anchor="middle" fill="${t.accent}" font-size="20" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">${stats.completed}</text>
