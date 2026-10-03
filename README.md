@@ -31,9 +31,11 @@
 
 <!-- Profile View Counter -->
 <p align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=56FF5A&style=flat">
-  <source media="(prefers-color-scheme: light)" srcset="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat">
-  <img src="https://komarev.com/ghpvc/?username=themalevolentone1&label=Profile%20views&color=007BFF&style=flat" alt="Profile views">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&color=56FF5A">
+    <source media="(prefers-color-scheme: light)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&color=007BFF">
+    <img src="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&color=007BFF" alt="Profile views">
+  </picture>
 </p>
 
 <!-- Monkey Typing Statistics -->
