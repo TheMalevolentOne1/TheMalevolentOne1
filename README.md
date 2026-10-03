@@ -39,6 +39,7 @@
 </p>
 
 <!-- Monkey Typing Statistics -->
+# MonkeyType Stats
 <p align="center">
   <a href="https://monkeytype.com/profile/TheMalevolentOne">
     <picture>
