@@ -120,8 +120,8 @@
 
 </div>
 <!-- Tech Stack Section (icons only, centred, each links to official docs) -->
-### 💻 Tech Stack
 
+### 💻 Tech Stack
 <p align="center"><sub><b>Languages</b></sub></p>
 <p align="center">
   <a href="https://isocpp.org/" target="_blank" title="C++"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++"></a>&nbsp;&nbsp;
