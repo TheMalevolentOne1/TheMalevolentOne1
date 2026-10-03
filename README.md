@@ -162,7 +162,7 @@
 
 <p align="center"><sub><b>Security Tools</b></sub></p>
 <p align="center">
-  <a href="https://cheatsheetseries.owasp.org/" target="_blank" title="OWASP Cheat Sheets"><img src="https://owasp.org/www--site-theme/favicon.ico" width="48" height="48" alt="OWASP Cheat Sheets"></a>&nbsp;&nbsp;
+  <a href="https://cheatsheetseries.owasp.org/" target="_blank" title="OWASP Cheat Sheets"><img src="https://cheatsheetseries.owasp.org/assets/OWASP_Logo.svg" width="48" height="48" alt="OWASP Cheat Sheets"></a>&nbsp;&nbsp;
   <a href="https://portswigger.net/burp/documentation" target="_blank" title="Burp Suite"><img src="https://portswigger.net/favicon.ico" width="48" height="48" alt="Burp Suite"></a>&nbsp;&nbsp;
   <a href="https://www.wireshark.org/docs/" target="_blank" title="Wireshark"><img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" width="48" height="48" alt="Wireshark"></a>&nbsp;&nbsp;
   <a href="https://nmap.org/book/man.html" target="_blank" title="Nmap"><img src="https://nmap.org/images/nmap-logo-64px.png" width="48" height="48" alt="Nmap"></a>&nbsp;&nbsp;
