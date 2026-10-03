@@ -32,9 +32,9 @@
 <!-- Profile View Counter -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&color=56FF5A">
-    <source media="(prefers-color-scheme: light)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&color=007BFF">
-    <img src="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&color=007BFF" alt="Profile views">
+    <source media="(prefers-color-scheme: dark)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&labelColor=0A0A0A&color=1F2937">
+    <source media="(prefers-color-scheme: light)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&labelColor=E5E7EB&color=BFDBFE">
+    <img src="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&labelColor=E5E7EB&color=BFDBFE" alt="Profile views">
   </picture>
 </p>
 
