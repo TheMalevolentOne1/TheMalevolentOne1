@@ -49,6 +49,7 @@
     </picture>
   </a>
 </p>
+<sub>a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub>
 
 <!-- GitHub Statistics. -->
 ### 📊 GitHub Stats
