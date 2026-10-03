@@ -4,7 +4,7 @@
  * Uses the public profile endpoint – no ApeKey required for basic stats.
  */
 
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -73,6 +73,16 @@ async function fetchProfile(username) {
   if (!json.data) throw new Error("Unexpected API response shape");
   return json.data;
 }
+
+function loadLogo(file, mime) {
+  const buf = readFileSync(join(ASSETS, file));
+  return `data:${mime};base64,${buf.toString("base64")}`;
+}
+
+const LOGOS = {
+  dark: loadLogo("monkeytype_logo_dark.png", "image/png"),
+  light: loadLogo("monkeytype_logo_light.svg", "image/svg+xml"),
+};
 
 function extractStats(data) {
   const pb = data.personalBests?.time || {};
@@ -149,7 +159,8 @@ function renderSvg(stats, themeName) {
   <title>Monkeytype stats – ${escapeXml(stats.name)}</title>
   <rect width="${w}" height="${h}" rx="8" fill="${t.bg}" stroke="${t.border}" stroke-width="1"/>
   <!-- header -->
-  <text x="24" y="32" fill="${t.title}" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">🐒 Monkeytype</text>
+  <image href="${LOGOS[themeName]}" x="24" y="14" width="22" height="22" preserveAspectRatio="xMidYMid meet"/>
+  <text x="52" y="32" fill="${t.title}" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">Monkeytype</text>
   <text x="24" y="50" fill="${t.subtitle}" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">${escapeXml(stats.name)} · personal bests</text>
   <!-- divider -->
   <line x1="24" y1="60" x2="${w - 24}" y2="60" stroke="${t.border}" stroke-width="1"/>
