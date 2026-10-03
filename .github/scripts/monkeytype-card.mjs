@@ -116,15 +116,16 @@ function renderSvg(stats, themeName) {
     { label: "120s", wpm: stats["120"].wpm, acc: stats["120"].acc }
   ];
 
-  const cellW = 120;
-  const startX = 30;
+  const cellW = 80;
+  const gap = 10;
+  const startX = 24;
   const yWpm = 88;
   const yAcc = 118;
   const yLabel = 142;
 
   let cellsSvg = "";
   cells.forEach((c, i) => {
-    const x = startX + i * (cellW + 20);
+    const x = startX + i * (cellW + gap);
     const wpmStr = c.wpm != null ? String(c.wpm) : "—";
     const accStr = c.acc != null ? `${c.acc}%` : "—";
     cellsSvg += `
@@ -135,7 +136,7 @@ function renderSvg(stats, themeName) {
   });
 
   // Right side summary
-  const rightX = 415;
+  const rightX = 425;
   const summary = `
     <text x="${rightX}" y="78" text-anchor="middle" fill="${t.label}" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">TESTS</text>
     <text x="${rightX}" y="100" text-anchor="middle" fill="${t.accent}" font-size="20" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">${stats.completed}</text>
