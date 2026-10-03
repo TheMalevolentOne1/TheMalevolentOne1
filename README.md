@@ -44,7 +44,15 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/monkeytype_logo_dark.png">
       <source media="(prefers-color-scheme: light)" srcset="assets/monkeytype_logo_light.svg">
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/monkeytype-dark.svg">
+      <img alt="Monkeytype" src="assets/monkeytype_logo_dark.png" height="40">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://monkeytype.com/profile/TheMalevolentOne">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/monkeytype-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/monkeytype-light.svg">
       <img alt="Monkeytype stats" src="assets/monkeytype-dark.svg">
     </picture>
