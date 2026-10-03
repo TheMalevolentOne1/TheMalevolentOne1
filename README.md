@@ -41,10 +41,11 @@
 <!-- Monkey Typing Statistics -->
 <p align="center">
   <a href="https://monkeytype.com/profile/TheMalevolentOne">
-    <img
-      src="https://monkeytype-github-profile.deno.dev/profile/TheMalevolentOne"
-      alt="Monkeytype Stats"
-    >
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/monkeytype-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/monkeytype-light.svg">
+      <img alt="Monkeytype stats" src="assets/monkeytype-dark.svg">
+    </picture>
   </a>
 </p>
 
