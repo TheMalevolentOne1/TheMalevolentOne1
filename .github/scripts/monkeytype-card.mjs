@@ -113,7 +113,7 @@ function renderSvg(stats, themeName) {
     { label: "15s", wpm: stats["15"].wpm, acc: stats["15"].acc },
     { label: "30s", wpm: stats["30"].wpm, acc: stats["30"].acc },
     { label: "60s", wpm: stats["60"].wpm, acc: stats["60"].acc },
-    { label: "120s", wps: stats["120"].wpm, acc: stats["120"].acc }
+    { label: "120s", wpm: stats["120"].wpm, acc: stats["120"].acc }
   ];
 
   const cellW = 120;
