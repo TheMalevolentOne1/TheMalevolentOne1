@@ -48,8 +48,9 @@
       <img alt="Monkeytype stats" src="assets/monkeytype-dark.svg">
     </picture>
   </a>
-  <sub><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub>
 </p>
+<sub align="center"><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub>
+
 
 <!-- GitHub Statistics. -->
 ### 📊 GitHub Stats
