@@ -40,7 +40,7 @@
 
 <!-- Monkey Typing Statistics -->
 <h3 align="center">
-<h2>🙈 MonkeyType Stats <picture><source media="(prefers-color-scheme: dark)" srcset="assets/flashing_cursor_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/flashing_cursor_light.svg"><img alt="flashing cursor" src="assets/flashing_cursor_light.svg" height="22"></picture></h2></picture>
+🙈 MonkeyType Stats <picture><source media="(prefers-color-scheme: dark)" srcset="assets/flashing_cursor_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/flashing_cursor_light.svg"><img alt="flashing cursor" src="assets/flashing_cursor_light.svg" height="22"></picture></picture>
 </h3>
 <p align="center">
   <a href="https://monkeytype.com/profile/TheMalevolentOne">
