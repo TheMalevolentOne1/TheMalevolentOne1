@@ -4,7 +4,7 @@
     <source media="(prefers-color-scheme: dark)" 
       srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=56FF5A&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!">
     <source media="(prefers-color-scheme: light)" 
-      srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!">
+      srcset="https://readme-typing-svg.demolab.com?fufont=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!">
     <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
   </picture>
 </p>
@@ -234,7 +234,8 @@
   <!-- My Notes Collection Website -->
   📚 My Notes Collection
 </h3>
-A living hub of study notes, guides, and CTF write-ups covering cyber security, ethical hacking, networking, and full-stack development.
+My collection of study notes, guides, and CTF write-ups covering cyber security, networking, and full-stack development.
+
 <p align="center">
   <a href="https://themalevolentone1.github.io/My-Notes-Collection" target="_blank">
     <picture>
