@@ -56,7 +56,7 @@
 
 <h3 align="center">
 <!-- GitHub Statistics. -->
-### 📊 GitHub Stats
+📊 GitHub Stats
 </h3>
 <div align="center">
 
