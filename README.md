@@ -8,6 +8,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
   </picture>
 </p>
+<img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=🙈+MonkeyType+Stats" alt="Welcome To My Profile!">
 
 <!-- Profile Description -->
 <p align="center">
