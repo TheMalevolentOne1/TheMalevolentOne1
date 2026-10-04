@@ -230,17 +230,6 @@
   <sub>See my <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">HackTheBox</a> and <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">TryHackMe</a> Notes.</sub>
 </p>
 
-<!-- Documentation Links -->
-<p align="center">
-  <sub>
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Documentation_Links-56FF5A?style=flat">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Documentation_Links-007BFF?style=flat">
-      <img src="https://img.shields.io/badge/Documentation_Links-007BFF?style=flat">
-    </picture>
-  </sub>
-</p>
-
 <h3 align="center">
   <!-- My Notes Collection Website -->
   📚 My Notes Collection
