@@ -38,6 +38,8 @@
   </picture>
 </p>
 
+<br>
+
 <!-- Monkey Typing Statistics -->
 <h3 align="center">
 🙈 MonkeyType Stats <picture><source media="(prefers-color-scheme: dark)" srcset="assets/flashing_cursor_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/flashing_cursor_light.svg"><img alt="flashing cursor" src="assets/flashing_cursor_light.svg" height="22"></picture></picture>
@@ -54,6 +56,8 @@
 <p align="center">
   <sub><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub>
 </p>
+
+<br>
 
 <!-- GitHub Statistics -->
 <h3 align="center">
@@ -95,6 +99,8 @@
 </picture>
 
 </div>
+
+<br>
 
 <!-- Tech Stack Section (icons only, centred, each links to official docs) -->
 <h3 align="center">
@@ -229,6 +235,8 @@
 <p align="center">
   <kbd><sub>See my <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">HackTheBox</a> and <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">TryHackMe</a> Notes.</sub></kbd>
 </p>
+
+<br><br>
 
 <h3 align="center">
   <!-- My Notes Collection Website -->
