@@ -110,11 +110,6 @@
   <source media="(prefers-color-scheme: light)" srcset="profile/streak-light.svg">
   <img src="profile/streak-light.svg" alt="GitHub Streak" height="180">
 </picture>
-
-<p align="center">
-  <sub>Stats above include private repositories</sub>
-</p>
-
 </div>
 
 <!-- Top Languages -->
@@ -125,6 +120,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg">
   <img src="profile/top-langs-light.svg" alt="Top Languages" height="180">
+  <br> <sub>Statistics above include Private Repositories</sub>
 </picture>
 
 </div>
