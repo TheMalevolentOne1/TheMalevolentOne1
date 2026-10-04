@@ -44,8 +44,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats">
   <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats">
-  <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats" alt="Profile Statistics">
-  █
+  <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats" alt="Profile Statistics"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
+  <rect width="12" height="22" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;0" dur="1s"
+             calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+</svg>
 </picture>
 </h3>
 
