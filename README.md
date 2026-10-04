@@ -59,55 +59,41 @@
 <h3 align="center">
   📊 GitHub Stats
 </h3>
+
 <div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=56FF5A&text_color=fff&title_color=56FF5A&count_private=true&include_all_commits=true&rank_icon=github"
-    >
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=github_light&hide_border=true&bg_color=ffffff&icon_color=007BFF&text_color=000000&title_color=007BFF&count_private=true&include_all_commits=true&rank_icon=github"
-    >
-    <img
-      src="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=56FF5A&text_color=fff&title_color=56FF5A&count_private=true&include_all_commits=true&rank_icon=github"
-      alt="GitHub Stats"
-      height="180"
-    >
-  </picture>
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://streak-stats.demolab.com/?user=TheMalevolentOne1&hide_border=true&background=20232A&ring=56FF5A&fire=56FF5A&currStreakLabel=56FF5A&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=9E9E9E"
-    >
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://streak-stats.demolab.com/?user=TheMalevolentOne1&hide_border=true&background=FFFFFF&ring=007BFF&fire=007BFF&currStreakLabel=007BFF&currStreakNum=000000&sideNums=000000&sideLabels=000000&dates=6E7781"
-    >
-    <img
-      src="https://streak-stats.demolab.com/?user=TheMalevolentOne1&hide_border=true&background=20232A&ring=56FF5A&fire=56FF5A&currStreakLabel=56FF5A&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=9E9E9E"
-      alt="GitHub Streak"
-      height="180"
-    >
-  </picture>
-  <p align="center"><sub>Stats above include private repositories</sub></p>
+
+<!-- Stats Card -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg">
+  <img src="profile/stats-dark.svg" alt="GitHub Stats" height="180">
+</picture>
+
+<!-- Streak Card -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/streak-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile/streak-light.svg">
+  <img src="profile/streak-dark.svg" alt="GitHub Streak" height="180">
+</picture>
+
+<p align="center">
+  <sub>Stats above include private repositories</sub>
+</p>
+
 </div>
 
 <!-- Top Languages -->
+
 <div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-stats-extended.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&langs_count=10&hide_border=true&bg_color=20232a&title_color=56FF5A&text_color=ffffff">
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-stats-extended.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&langs_count=10&hide_border=true&bg_color=ffffff&title_color=007BFF&text_color=000000">
-    <img
-      src="https://github-stats-extended.vercel.app/api/top-langs?username=TheMalevolentOne1&layout=compact&langs_count=10&hide_border=true&bg_color=20232a&title_color=56FF5A&text_color=ffffff"
-      alt="Top Languages"
-      height="180"
-    >
-  </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg">
+  <img src="profile/top-langs-dark.svg" alt="Top Languages" height="180">
+</picture>
+
 </div>
 
 <!-- Tech Stack Section (icons only, centred, each links to official docs) -->
