@@ -22,7 +22,7 @@ const THEMES = {
     title: "#e6edf3",
     subtitle: "#8b949e",
     label: "#8b949e",
-    value: "#58a6ff",
+    value: "#56FF5A",
     accent: "#3fb950",
     muted: "#484f58",
     card: "#161b22",
