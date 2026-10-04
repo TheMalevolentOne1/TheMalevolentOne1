@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
-  <rect width="12" height="22" fill="#58a6ff">
+  <rect width="12" height="22" fill="#007BFF">
     <animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/>
   </rect>
 </svg>
