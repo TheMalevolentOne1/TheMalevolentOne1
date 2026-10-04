@@ -41,7 +41,6 @@
 <!-- Monkey Typing Statistics -->
 <h3 align="center">
 <!-- 🙈 MonkeyType Stats -->
-<picture>
 <text x="50%" y="50%" text-anchor="middle">
   🙈 MonkeyType Stats
 </text>
@@ -53,8 +52,7 @@
     repeatCount="indefinite"
   />
   █
-</text>font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats" alt="Profile Statistics">
-</picture>
+</text>
 </h3>
 <p align="center">
   <a href="https://monkeytype.com/profile/TheMalevolentOne">
