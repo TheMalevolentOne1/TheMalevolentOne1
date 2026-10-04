@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
-  <rect width="12" height="22" fill="#20232a"/>
-  <rect x="1" y="2" width="10" height="18" fill="#56ff5a">
+  <rect width="12" height="22" fill="#0d1117"/>
+  <rect width="12" height="22" fill="#56ff5a">
     <animate attributeName="opacity" values="1;0" keyTimes="0;0.5"
              dur="1.06s" calcMode="discrete" repeatCount="indefinite"/>
   </rect>
