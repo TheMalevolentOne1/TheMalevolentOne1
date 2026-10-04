@@ -234,7 +234,7 @@
   <!-- My Notes Collection Website -->
   📚 My Notes Collection
 </h3>
-My collection of study notes, guides, and CTF write-ups covering cyber security, networking, and full-stack development.
+My collection of study notes, guides, and CTF write-ups covering cyber security, networking, and full-stack development.<br><br>
 
 
 <p align="center">
