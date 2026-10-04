@@ -39,7 +39,9 @@
 </p>
 
 <!-- Monkey Typing Statistics -->
+<p align="center">
 ### 🙈 MonkeyType Stats
+</p>
 <p align="center">
   <a href="https://monkeytype.com/profile/TheMalevolentOne">
     <picture>
@@ -52,9 +54,10 @@
 <p align="center"><sub><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub></p>
 
 
+<p align="center">
 <!-- GitHub Statistics. -->
 ### 📊 GitHub Stats
-
+</p>
 <div align="center">
 
 <picture>
@@ -112,8 +115,9 @@
 
 </div>
 <!-- Tech Stack Section (icons only, centred, each links to official docs) -->
-
+<p align="center">
 ### 💻 Tech Stack
+</p>
 <p align="center"><sub><b>Languages</b></sub></p>
 <p align="center">
   <a href="https://isocpp.org/" target="_blank" title="C++"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++"></a>&nbsp;&nbsp;
@@ -184,9 +188,10 @@
   </sub>
 </p>
 
+<p align="center">
 <!-- My Notes Collection Website -->
 ### 📚 My Notes Collection
-
+</p>
 A living hub of study notes, guides, and CTF write-ups covering cyber security, ethical hacking, networking, and full-stack development.
 
 <p align="center">
@@ -206,8 +211,10 @@ A living hub of study notes, guides, and CTF write-ups covering cyber security, 
   <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/CaptureTheFlags/CTFs/" target="_blank" title="CTFs"><img src="https://img.shields.io/badge/🚩_CTFs-20232a?style=flat-square" alt="CTFs"></a>
 </p>
 
+<p align="center">
 <!-- Social Connections -->
 ### 🌐 Connect with me:
+</p>
 <p align="center">
   <a href="https://www.instagram.com/tm02504" target="_blank" rel="noopener noreferrer">
     <picture>
