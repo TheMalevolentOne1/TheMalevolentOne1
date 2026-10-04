@@ -227,7 +227,7 @@
   </a>
 </p>
 <p align="center">
-  <sub>See my <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">HackTheBox</a> and <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">TryHackMe</a> Notes.</sub>
+  <kbd><sub>See my <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">HackTheBox</a> and <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">TryHackMe</a> Notes.</sub></kbd>
 </p>
 
 <h3 align="center">
