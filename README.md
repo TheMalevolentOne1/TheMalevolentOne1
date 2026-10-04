@@ -266,7 +266,11 @@
     </picture>
   </a>&nbsp;
   <a href="https://tryhackme.com/" target="_blank" title="TryHackMe">
-    <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=FF4655" alt="TryHackMe" height="30">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/TryHackMe">
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/TryHackMe/007BFF">
+      <img src="https://cdn.simpleicons.org/TryHackMe/007BFF" alt="TryHackMe" height="30">
+    </picture>
   </a>
 </p>
 
