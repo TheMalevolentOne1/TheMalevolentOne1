@@ -9,19 +9,19 @@
   <!-- divider -->
   <line x1="24" y1="60" x2="456" y2="60" stroke="#30363d" stroke-width="1"/>
   
-      <text x="64" y="88" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">81</text>
+      <text x="64" y="88" text-anchor="middle" fill="#56FF5A" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">81</text>
       <text x="64" y="118" text-anchor="middle" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">97% acc</text>
       <text x="64" y="142" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">15s</text>
     
-      <text x="154" y="88" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
+      <text x="154" y="88" text-anchor="middle" fill="#56FF5A" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
       <text x="154" y="118" text-anchor="middle" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">94% acc</text>
       <text x="154" y="142" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">30s</text>
     
-      <text x="244" y="88" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
+      <text x="244" y="88" text-anchor="middle" fill="#56FF5A" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
       <text x="244" y="118" text-anchor="middle" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">97% acc</text>
       <text x="244" y="142" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">60s</text>
     
-      <text x="334" y="88" text-anchor="middle" fill="#58a6ff" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">63</text>
+      <text x="334" y="88" text-anchor="middle" fill="#56FF5A" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">63</text>
       <text x="334" y="118" text-anchor="middle" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">88% acc</text>
       <text x="334" y="142" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">120s</text>
     
