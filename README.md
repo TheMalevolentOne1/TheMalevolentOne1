@@ -40,16 +40,8 @@
 
 <!-- Monkey Typing Statistics -->
 <h3 align="center">
-🙈 MonkeyType Stats
-<svg>
-  <rect width="12" height="22" fill="#58a6ff">
-    <animate attributeName="opacity" values="1;0" dur="1s"
-             calcMode="discrete" repeatCount="indefinite"/>
-  </rect>
-</svg>
-</picture>
+<h2>🙈 MonkeyType Stats <picture><source media="(prefers-color-scheme: dark)" srcset="assets/flashing_cursor_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/flashing_cursor_light.svg"><img alt="flashing cursor" src="assets/flashing_cursor_light.svg" height="22"></picture></h2></picture>
 </h3>
-
 <p align="center">
   <a href="https://monkeytype.com/profile/TheMalevolentOne">
     <picture>
