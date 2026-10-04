@@ -20,13 +20,68 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true
-          path: assets/stats.svg
+          path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---------------- Added cards ----------------
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=56FF5A&text_color=ffffff&title_color=56FF5A&count_private=true&include_all_commits=true&rank_icon=github
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=ffffff&icon_color=007BFF&text_color=000000&title_color=007BFF&count_private=true&include_all_commits=true&rank_icon=github
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&bg_color=20232a&title_color=56FF5A&text_color=ffffff
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=10&hide_border=true&bg_color=ffffff&title_color=007BFF&text_color=000000
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # The action has no streak card, so these two are downloaded.
+      # If a download fails, the previous SVG is kept.
+      - name: Fetch streak cards
+        run: |
+          mkdir -p profile
+
+          fetch_streak() {
+            if curl -fsSL --retry 3 --retry-delay 5 "$1" -o streak.tmp && grep -q "Current Streak" streak.tmp; then
+              mv streak.tmp "$2"
+            else
+              echo "::warning::Could not fetch a valid streak card, keeping previous $2"
+              rm -f streak.tmp
+            fi
+          }
+
+          fetch_streak "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&background=20232A&ring=56FF5A&fire=56FF5A&currStreakLabel=56FF5A&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=9E9E9E" profile/streak-dark.svg
+
+          fetch_streak "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&background=FFFFFF&ring=007BFF&fire=007BFF&currStreakLabel=007BFF&currStreakNum=000000&sideNums=000000&sideLabels=000000&dates=6E7781" profile/streak-light.svg
+
+      # ---------------------------------------------
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/*.svg
+          git add profile/*.svg
           git commit -m "Update README cards" || exit 0
           git push
