@@ -381,20 +381,6 @@
       <img src="https://img.shields.io/badge/Codecademy-0A0A0A?style=for-the-badge&amp;logo=codecademy&amp;logoColor=007BFF" alt="Codecademy Logo" height="30" width="120">
     </picture>
   </a>
-  <a href="https://academy.hackthebox.com/" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/HackTheBox-0A0A0A?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=56FF5A">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/HackTheBox-0A0A0A?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=007BFF">
-      <img src="https://img.shields.io/badge/HackTheBox-0A0A0A?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=007BFF" alt="HackTheBox Logo" height="30" width="120">
-    </picture>
-  </a>
-  <a href="https://tryhackme.com/" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TryHackMe-0A0A0A?style=for-the-badge&amp;logo=tryhackme&amp;logoColor=56FF5A">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/TryHackMe-0A0A0A?style=for-the-badge&amp;logo=tryhackme&amp;logoColor=007BFF">
-      <img src="https://img.shields.io/badge/TryHackMe-0A0A0A?style=for-the-badge&amp;logo=tryhackme&amp;logoColor=007BFF" alt="TryHackMe Logo" height="30" width="120">
-    </picture>
-  </a>
 </p>
 
 <!-- Closing Section -->
