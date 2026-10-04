@@ -1,44 +1,74 @@
 <!-- Welcome Section -->
-<p align="center">
+<div align="center">
+
+  <!-- Welcome -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" 
+    <source media="(prefers-color-scheme: dark)"
       srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=56FF5A&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!">
-    <source media="(prefers-color-scheme: light)" 
-      srcset="https://readme-typing-svg.demolab.com?fufont=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!">
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!"
+      alt="Welcome To My Profile!"
+    >
   </picture>
-</p>
 
-<!-- Profile Description -->
-<p align="center">
+  <br>
+
+  <!-- Profile Description -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://placehold.co/500x75/transparent/56FF5A?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student">
-    <source media="(prefers-color-scheme: light)" srcset="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student">
-    <img src="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Student" alt="BSc (Hons) Software Engineering Student">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://placehold.co/500x75/transparent/56FF5A?font=source-sans-pro&amp;text=BSc%20(Hons)%20Software%20Engineering%20Student">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&amp;text=BSc%20(Hons)%20Software%20Engineering%20Student">
+    <img
+      src="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&amp;text=BSc%20(Hons)%20Software%20Engineering%20Student"
+      alt="BSc (Hons) Software Engineering Student"
+    >
   </picture>
-</p>
 
-<!-- Animated Gif Section -->
-<p align="center">
+  <br>
+
+  <!-- Animated Gif Section -->
   <kbd>
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.giphy.com/PTBVMsYIOB0SBP4MVe.webp" width="250">
-      <source media="(prefers-color-scheme: light)" srcset="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhyYTFpejd0Zm9sbDZxZWNnaWllbmViN2c4OWZzdmRuYTN6ZW1wYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/scZPhLqaVOM1qG4lT9/giphy.webp" width="250">
-      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhyYTFpejd0Zm9sbDZxZWNnaWllbmViN2c4OWZzdmRuYTN6ZW1wYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/scZPhLqaVOM1qG4lT9/giphy.webp" alt="Animated Gif">
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://i.giphy.com/PTBVMsYIOB0SBP4MVe.webp"
+        width="250"
+      >
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhyYTFpejd0Zm9sbDZxZWNnaWllbmViN2c4OWZzdmRuYTN6ZW1wYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/scZPhLqaVOM1qG4lT9/giphy.webp"
+        width="250"
+      >
+      <img
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWhyYTFpejd0Zm9sbDZxZWNnaWllbmViN2c4OWZzdmRuYTN6ZW1wYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/scZPhLqaVOM1qG4lT9/giphy.webp"
+        alt="Animated Gif"
+        width="250"
+      >
     </picture>
   </kbd>
-</p>
 
-<!-- Profile View Counter -->
-<p align="center">
+  <br>
+
+  <!-- Profile View Counter -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&labelColor=0A0A0A&color=56FF5A">
-    <source media="(prefers-color-scheme: light)" srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&labelColor=E5E7EB&color=007BFF">
-    <img src="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&label=Profile%20views&labelColor=E5E7EB&color=007BFF" alt="Profile views">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&amp;label=Profile%20views&amp;labelColor=0A0A0A&amp;color=56FF5A">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&amp;label=Profile%20views&amp;labelColor=E5E7EB&amp;color=007BFF">
+    <img
+      src="https://hits.sh/github.com/TheMalevolentOne1.svg?style=flat&amp;label=Profile%20views&amp;labelColor=E5E7EB&amp;color=007BFF"
+      alt="Profile views"
+    >
   </picture>
-</p>
 
-<br>
+</div>
 
 <!-- Monkey Typing Statistics -->
 <h3 align="center">
@@ -52,8 +82,7 @@
       <img alt="Monkeytype stats" src="assets/monkeytype-dark.svg">
     </picture>
   </a>
-</p>
-<p align="center">
+  <br>
   <sub><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub>
 </p>
 
@@ -232,9 +261,29 @@
     <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=FF4655" alt="TryHackMe" height="30">
   </a>
 </p>
+
 <p align="center">
-  <kbd><sub>See my <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">HackTheBox</a> and <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">TryHackMe</a> Notes.</sub></kbd>
+  <span style="font-size: 12px;">
+    See my 
+    <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/HackTheBox-56FF5A?style=flat-square&logo=hackthebox&logoColor=0A0A0A">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/HackTheBox-007BFF?style=flat-square&logo=hackthebox&logoColor=FFFFFF">
+        <img src="https://img.shields.io/badge/HackTheBox-007BFF?style=flat-square&logo=hackthebox&logoColor=FFFFFF" alt="HackTheBox">
+      </picture>
+    </a>
+    and
+    <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TryHackMe-56FF5A?style=flat-square&logo=tryhackme&logoColor=0A0A0A">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/TryHackMe-007BFF?style=flat-square&logo=tryhackme&logoColor=FFFFFF">
+        <img src="https://img.shields.io/badge/TryHackMe-007BFF?style=flat-square&logo=tryhackme&logoColor=FFFFFF" alt="TryHackMe">
+      </picture>
+    </a>
+    Notes
+  </span>
 </p>
+
 
 <br><br>
 
