@@ -260,9 +260,9 @@
 <p align="center">
   <a href="https://academy.hackthebox.com/" target="_blank" title="HackTheBox">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=0A0A0A">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/HackTheBox-007BFF?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=FFFFFF">
-      <img src="https://img.shields.io/badge/HackTheBox-007BFF?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=FFFFFF" alt="HackTheBox" height="30">
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/HackTheBox">
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/HackTheBox/007BFF">
+      <img src="https://cdn.simpleicons.org/HackTheBox/007BFF" alt="HackTheBox" height="30">
     </picture>
   </a>&nbsp;
   <a href="https://tryhackme.com/" target="_blank" title="TryHackMe">
