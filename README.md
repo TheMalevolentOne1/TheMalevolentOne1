@@ -79,7 +79,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/monkeytype-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/monkeytype-light.svg">
-      <img alt="Monkeytype stats" src="assets/monkeytype-dark.svg">
+      <img alt="Monkeytype stats" src="assets/monkeytype-light.svg">
     </picture>
   </a>
   <br>
@@ -100,7 +100,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg">
-  <img src="profile/stats-dark.svg" alt="GitHub Stats" height="180">
+  <img src="profile/stats-light.svg" alt="GitHub Stats" height="180">
 </picture>
 
 <!-- Streak Card -->
@@ -108,7 +108,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile/streak-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="profile/streak-light.svg">
-  <img src="profile/streak-dark.svg" alt="GitHub Streak" height="180">
+  <img src="profile/streak-light.svg" alt="GitHub Streak" height="180">
 </picture>
 
 <p align="center">
@@ -124,7 +124,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg">
-  <img src="profile/top-langs-dark.svg" alt="Top Languages" height="180">
+  <img src="profile/top-langs-light.svg" alt="Top Languages" height="180">
 </picture>
 
 </div>
@@ -263,7 +263,11 @@
 </p>
 <p align="center">
   <a href="https://academy.hackthebox.com/" target="_blank" title="HackTheBox">
-    <img src="https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=0A0A0A" alt="HackTheBox" height="30">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=0A0A0A">
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/HackTheBox-007BFF?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=FFFFFF">
+      <img src="https://img.shields.io/badge/HackTheBox-007BFF?style=for-the-badge&amp;logo=hackthebox&amp;logoColor=FFFFFF" alt="HackTheBox" height="30">
+    </picture>
   </a>&nbsp;
   <a href="https://tryhackme.com/" target="_blank" title="TryHackMe">
     <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=FF4655" alt="TryHackMe" height="30">
