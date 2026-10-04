@@ -8,7 +8,6 @@
     <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=Welcome+To+My+Profile!" alt="Welcome To My Profile!">
   </picture>
 </p>
-<img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=🙈+MonkeyType+Stats" alt="Welcome To My Profile!">
 
 <!-- Profile Description -->
 <p align="center">
@@ -41,7 +40,13 @@
 
 <!-- Monkey Typing Statistics -->
 <h3 align="center">
-  🙈 MonkeyType Stats
+  <!-- 🙈 MonkeyType Stats -->
+  <picture>
+    <source media="(prefers-color-schene: dark)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats">
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&amp;weight=100&amp;size=30&amp;pause=1000&amp;color=007BFF&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=435&amp;lines=%F0%9F%99%88+MonkeyType+Stats" alt="Profile Statistics">
+  </picture>
+  
 </h3>
 <p align="center">
   <a href="https://monkeytype.com/profile/TheMalevolentOne">
