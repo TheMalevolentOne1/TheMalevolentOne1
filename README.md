@@ -156,7 +156,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5">
   </a>&nbsp;&nbsp;
   <a href="https://www.gnu.org/software/bash/manual/" target="_blank" title="Bash">
-    <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" width="48" height="48" alt="Bash">
+    <img src="https://cdn.simpleicons.org/gnubash/4EAA25" width="48" height="48" alt="Bash">
   </a>
 </p>
 
@@ -207,7 +207,11 @@
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="48" height="48" alt="Git">
   </a>&nbsp;&nbsp;
   <a href="https://docs.github.com/en" target="_blank" title="GitHub">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="48" height="48" alt="GitHub">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/FFFFFF">
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/181717">
+      <img src="https://cdn.simpleicons.org/github/8B949E" width="48" height="48" alt="GitHub">
+    </picture>
   </a>&nbsp;&nbsp;
   <a href="https://docs.docker.com/" target="_blank" title="Docker">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48" height="48" alt="Docker">
@@ -234,19 +238,23 @@
     <img src="https://cheatsheetseries.owasp.org/assets/OWASP_Logo.svg" width="48" height="48" alt="OWASP Cheat Sheets">
   </a>&nbsp;&nbsp;
   <a href="https://portswigger.net/burp/documentation" target="_blank" title="Burp Suite">
-    <img src="https://portswigger.net/favicon.ico" width="48" height="48" alt="Burp Suite">
+    <img src="https://portswigger.net/favicon.ico" width="48" height="48" alt="Burp Suite" width="48" height="48">
   </a>&nbsp;&nbsp;
   <a href="https://www.wireshark.org/docs/" target="_blank" title="Wireshark">
-    <img src="https://www.vectorlogo.zone/logos/wireshark/wireshark-icon.svg" width="48" height="48" alt="Wireshark">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg" width="48" height="48" alt="Wireshark">
   </a>&nbsp;&nbsp;
   <a href="https://nmap.org/book/man.html" target="_blank" title="Nmap">
-    <img src="https://nmap.org/images/nmap-logo-64px.png" width="48" height="48" alt="Nmap">
+    <img src="https://media.trustradius.com/product-logos/2L/JE/TM3LBFUXCJ0G.PNG" width="48" height="48" alt="Nmap">
   </a>&nbsp;&nbsp;
   <a href="https://www.metasploit.com/" target="_blank" title="Metasploit">
-    <img src="https://www.metasploit.com/includes/images/favicon.ico" width="48" height="48" alt="Metasploit">
-  </a>&nbsp;&nbsp;
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/metasploit/FFFFFF">
+      <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/metasploit/2596CD">
+      <img src="https://cdn.simpleicons.org/metasploit/2596CD" width="48" height="48" alt="GitHub">
+    </picture>
+  </a>
   <a href="https://www.kali.org/docs/" target="_blank" title="Kali Linux">
-    <img src="https://www.kali.org/images/favicon.ico" width="48" height="48" alt="Kali Linux">
+    <img src="https://cdn.simpleicons.org/kalilinux/2596CD" width="48" height="48" alt="Kali Linux">
   </a>
 </p>
 
@@ -261,29 +269,6 @@
     <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=FF4655" alt="TryHackMe" height="30">
   </a>
 </p>
-
-<p align="center">
-  <span style="font-size: 12px;">
-    See my 
-    <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/HackTheBox/HackTheBox/">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/HackTheBox-56FF5A?style=flat-square&logo=hackthebox&logoColor=0A0A0A">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/HackTheBox-007BFF?style=flat-square&logo=hackthebox&logoColor=FFFFFF">
-        <img src="https://img.shields.io/badge/HackTheBox-007BFF?style=flat-square&logo=hackthebox&logoColor=FFFFFF" alt="HackTheBox">
-      </picture>
-    </a>
-    and
-    <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/TryHackMe/TryHackMe/">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/TryHackMe-56FF5A?style=flat-square&logo=tryhackme&logoColor=0A0A0A">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/TryHackMe-007BFF?style=flat-square&logo=tryhackme&logoColor=FFFFFF">
-        <img src="https://img.shields.io/badge/TryHackMe-007BFF?style=flat-square&logo=tryhackme&logoColor=FFFFFF" alt="TryHackMe">
-      </picture>
-    </a>
-    Notes
-  </span>
-</p>
-
 
 <br><br>
 
