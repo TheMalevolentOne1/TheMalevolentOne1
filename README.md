@@ -54,50 +54,21 @@
 <p align="center"><sub><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub></p>
 
 
-<h3 align="center">
-<!-- GitHub Statistics. -->
-📊 GitHub Stats
-</h3>
-<div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github"
-  >
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=github_light&hide_border=true&bg_color=ffffff&icon_color=0366d6&text_color=000000&title_color=0366d6&count_private=true&include_all_commits=true&rank_icon=github"
-  >
-  <img
-    src="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github"
-    alt="GitHub Stats"
-    height="180"
-  >
-</picture>
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&theme=onedark&hide_border=true&background=20232a&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"
-  >
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&theme=github-light&hide_border=true&background=ffffff&ring=0366d6&fire=0366d6&currStreakLabel=0366d6"
-  >
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=TheMalevolentOne1&theme=onedark&hide_border=true&background=20232a&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"
-    alt="GitHub Streak"
-    height="180"
-  >
-</picture>
-
-<p align="center"><sub>Stats above include private repositories</sub></p>
-
+<h3 align="center"> <!-- GitHub Statistics. --> 📊 GitHub Stats </h3> 
+<div align="center"> 
+  <picture> <source media="(prefers-color-scheme: dark)" srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github" > 
+    <source media="(prefers-color-scheme: light)" srcset="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=github_light&hide_border=true&bg_color=ffffff&icon_color=0366d6&text_color=000000&title_color=0366d6&count_private=true&include_all_commits=true&rank_icon=github" > 
+    <img src="https://profile-stats-tau.vercel.app/api?username=TheMalevolentOne1&show_icons=true&theme=onedark&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" height="180" > 
+  </picture> 
+  <picture> 
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=TheMalevolentOne1&hide_border=true&background=20232A&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=9E9E9E" > <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=TheMalevolentOne1&hide_border=true&background=FFFFFF&ring=0366D6&fire=0366D6&currStreakLabel=0366D6&currStreakNum=000000&sideNums=000000&sideLabels=000000&dates=6E7781" > <img src="https://streak-stats.demolab.com/?user=TheMalevolentOne1&hide_border=true&background=20232A&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=9E9E9E" alt="GitHub Streak" height="180" > 
+  </picture> 
+  <p align="center">
+    <sub>Stats above include private repositories</sub>
+  </p>
 </div>
 
 <div align="center">
-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
