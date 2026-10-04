@@ -270,7 +270,7 @@
   </a>
 </p>
 
-<br><br>
+<br>
 
 <h3 align="center">
   <!-- My Notes Collection Website -->
