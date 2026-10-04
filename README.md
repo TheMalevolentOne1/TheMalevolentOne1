@@ -267,7 +267,7 @@
   </a>&nbsp;
   <a href="https://tryhackme.com/" target="_blank" title="TryHackMe">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/TryHackMe/2596CD">
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/TryHackMe/56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/TryHackMe/007BFF">
       <img src="https://cdn.simpleicons.org/TryHackMe/007BFF" alt="TryHackMe" height="30">
     </picture>
