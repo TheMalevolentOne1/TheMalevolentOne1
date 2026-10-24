@@ -17,6 +17,7 @@
 
 
 <!-- Profile Description -->
+<a href="https://www.lancashire.ac.uk/alumni">
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -28,7 +29,7 @@
     src="https://placehold.co/500x75/transparent/007BFF?font=source-sans-pro&text=BSc%20(Hons)%20Software%20Engineering%20Graduate"
     alt="BSc (Hons) Software Engineering | Graduate">
 </picture>
-
+</a>
 
   <br>
 
