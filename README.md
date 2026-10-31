@@ -287,7 +287,7 @@
 <br>
 
 <p align="center">
-  <a href="https://themalevolentone1.github.io/My-Notes-Collection" target="_blank">
+  <a href="https://themalevolentone1.github.io/" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=56FF5A">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=007BFF">
@@ -297,28 +297,28 @@
 </p>
 
 <p align="center">
-  <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Notes/" target="_blank" title="Notes">
+  <a href="https://themalevolentone1.github.io/Notes/Notes/" target="_blank" title="Notes">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/🛡️_Notes-56FF5A?style=flat-square">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/🛡️_Notes-007BFF?style=flat-square">
       <img src="https://img.shields.io/badge/🛡️_Notes-007BFF?style=flat-square" alt="Notes">
     </picture>
   </a>&nbsp;
-  <a href="https://themalevolentone1.github.io/My-Notes-Collection/Guides/Guides/" target="_blank" title="Guides">
+  <a href="https://themalevolentone1.github.io/Guides/Guides/" target="_blank" title="Guides">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/📚_Guides-56FF5A?style=flat-square">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/📚_Guides-007BFF?style=flat-square">
       <img src="https://img.shields.io/badge/📚_Guides-007BFF?style=flat-square" alt="Guides">
     </picture>
   </a>&nbsp;
-  <a href="https://themalevolentone1.github.io/My-Notes-Collection/Video%20Notes/Video%20Notes/" target="_blank" title="Video Notes">
+  <a href="https://themalevolentone1.github.io/Video%20Notes/Video%20Notes/" target="_blank" title="Video Notes">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/🎥_Video_Notes-56FF5A?style=flat-square">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/🎥_Video_Notes-007BFF?style=flat-square">
       <img src="https://img.shields.io/badge/🎥_Video_Notes-007BFF?style=flat-square" alt="Video Notes">
     </picture>
   </a>&nbsp;
-  <a href="https://themalevolentone1.github.io/My-Notes-Collection/Notes/Cyber%20Security/Online/CaptureTheFlags/CTFs/" target="_blank" title="CTFs">
+  <a href="https://themalevolentone1.github.io/Notes/Cyber%20Security/Online/CaptureTheFlags/CTFs/" target="_blank" title="CTFs">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/🚩_CTFs-56FF5A?style=flat-square">
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/🚩_CTFs-007BFF?style=flat-square">
