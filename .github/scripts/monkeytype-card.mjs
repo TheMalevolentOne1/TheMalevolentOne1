@@ -52,8 +52,8 @@ const LAYOUT = {
 
   rowLabelY: [105, 195],
   valueDy: 27,
-  wordsDy: 53,
-  accDy: 74,
+  wordsDy: 51,
+  accDy: 72,
 
   summaryX: 690,
 };
