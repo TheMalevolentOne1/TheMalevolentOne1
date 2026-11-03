@@ -50,7 +50,7 @@ const LAYOUT = {
   cellW: 105,
   cellGap: 12,
 
-  rowLabelY: [105, 195],
+  rowLabelY: [111, 201],
   valueDy: 27,
   wordsDy: 51,
   accDy: 72,
