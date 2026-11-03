@@ -9,7 +9,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, "../.."); // repo root when run from .github/scripts
+const ROOT = join(__dirname, "../..");
 const ASSETS = join(ROOT, "assets");
 
 const USERNAME = process.env.MONKEYTYPE_USERNAME || "TheMalevolentOne";
@@ -26,8 +26,6 @@ const THEMES = {
     label: "#8b949e",
     value: "#56FF5A",
     accent: "#3fb950",
-    muted: "#484f58",
-    card: "#161b22",
   },
   light: {
     bg: "#ffffff",
@@ -37,37 +35,32 @@ const THEMES = {
     label: "#656d76",
     value: "#0969da",
     accent: "#1a7f37",
-    muted: "#afb8c1",
-    card: "#f6f8fa",
   },
 };
 
 const LAYOUT = {
-  height: 180,
-  pad: 24, // outer padding, left / right
+  height: 220,
+  pad: 24,
 
-  // Header
   logoY: 14,
   logoSize: 22,
-  titleX: 52, // logo right edge (46) + 6
+  titleX: 52,
   titleY: 32,
   subtitleY: 50,
   dividerY: 60,
 
-  // Personal-best grid: `cols` columns, one row per entry in `rowLabelY`
   cols: 4,
   cellW: 60,
   cellGap: 8,
-  rowLabelY: [79, 129], // baseline of the small label (15s, 10ws, …) in each row
-  valueDy: 23, // label baseline → big number baseline
-  accDy: 37, // label baseline → accuracy baseline
+  rowLabelY: [79, 154],
+  valueDy: 21,
+  wordsDy: 39,
+  accDy: 56,
 
-  // Summary column (TESTS / TIME) to the right of the grid
   summaryGap: 12,
   summaryW: 80,
 };
 
-/** [label shown on the card, key in the API's personal bests] – laid out row by row. */
 const CELL_MODES = [
   ["15s", "15"],
   ["30s", "30"],
@@ -81,19 +74,23 @@ const CELL_MODES = [
 
 function formatTime(seconds) {
   if (!seconds || seconds <= 0) return "0m";
+
   const h = Math.floor(seconds / 3600);
   const m = Math.floor((seconds % 3600) / 60);
+
   if (h > 0) return `${h}h ${m}m`;
   return `${m}m`;
 }
 
 function bestPb(entries) {
   if (!Array.isArray(entries) || entries.length === 0) return null;
-  // Prefer highest wpm; if tie, higher accuracy
-  return entries.reduce((best, cur) => {
-    if (!best) return cur;
-    if (cur.wpm > best.wpm) return cur;
-    if (cur.wpm === best.wpm && cur.acc > best.acc) return cur;
+
+  return entries.reduce((best, current) => {
+    if (!best) return current;
+    if (current.wpm > best.wpm) return current;
+    if (current.wpm === best.wpm && current.acc > best.acc) {
+      return current;
+    }
     return best;
   }, null);
 }
@@ -101,21 +98,32 @@ function bestPb(entries) {
 async function fetchProfile(username) {
   const url = `https://api.monkeytype.com/users/${encodeURIComponent(username)}/profile`;
   const headers = { Accept: "application/json" };
-  if (APE_KEY) headers.Authorization = `ApeKey ${APE_KEY}`;
 
-  const res = await fetch(url, { headers });
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`Monkeytype API ${res.status}: ${body.slice(0, 200)}`);
+  if (APE_KEY) {
+    headers.Authorization = `ApeKey ${APE_KEY}`;
   }
-  const json = await res.json();
-  if (!json.data) throw new Error("Unexpected API response shape");
+
+  const response = await fetch(url, { headers });
+
+  if (!response.ok) {
+    const body = await response.text().catch(() => "");
+    throw new Error(
+      `Monkeytype API ${response.status}: ${body.slice(0, 200)}`,
+    );
+  }
+
+  const json = await response.json();
+
+  if (!json.data) {
+    throw new Error("Unexpected API response shape");
+  }
+
   return json.data;
 }
 
 function loadLogo(file, mime) {
-  const buf = readFileSync(join(ASSETS, file));
-  return `data:${mime};base64,${buf.toString("base64")}`;
+  const buffer = readFileSync(join(ASSETS, file));
+  return `data:${mime};base64,${buffer.toString("base64")}`;
 }
 
 const LOGOS = {
@@ -123,30 +131,45 @@ const LOGOS = {
   light: loadLogo("monkeytype_logo_light.svg", "image/svg+xml"),
 };
 
-/** Reduces the API profile to the numbers the card shows. */
 function extractStats(data) {
-  const pb = data.personalBests?.time || {};
-  const stats = data.typingStats || {};
+  const personalBests = data.personalBests?.time || {};
+  const typingStats = data.typingStats || {};
 
   const modes = ["15", "30", "60", "120", "10", "25", "50", "100"];
   const results = {};
+
   for (const mode of modes) {
-    const best = bestPb(pb[mode]);
+    const best = bestPb(personalBests[mode]);
+
     results[mode] = best
-      ? { wpm: Math.round(best.wpm), acc: Math.round(best.acc) }
-      : { wpm: null, acc: null };
+      ? {
+          wpm: Math.round(best.wpm),
+
+          // Timed modes: calculate words from WPM and duration.
+          // Word modes: use the configured number of words.
+          words: ["15", "30", "60", "120"].includes(mode)
+            ? Math.round((best.wpm * Number(mode)) / 60)
+            : Number(mode),
+
+          acc: Math.round(best.acc),
+        }
+      : {
+          wpm: null,
+          words: null,
+          acc: null,
+        };
   }
 
   return {
     name: data.name || USERNAME,
-    completed: stats.completedTests ?? 0,
-    timeTyping: formatTime(stats.timeTyping ?? 0),
+    completed: typingStats.completedTests ?? 0,
+    timeTyping: formatTime(typingStats.timeTyping ?? 0),
     ...results,
   };
 }
 
-function escapeXml(s) {
-  return String(s)
+function escapeXml(value) {
+  return String(value)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -154,86 +177,181 @@ function escapeXml(s) {
     .replace(/'/g, "&apos;");
 }
 
-/** One <text> element. `anchor` is "middle" for centred text, "start" for left-aligned. */
-function svgText({ x, y, fill, size, weight, anchor = "middle" }, content) {
-  const weightAttr = weight ? ` font-weight="${weight}"` : "";
-  return `<text x="${x}" y="${y}" text-anchor="${anchor}" fill="${fill}" font-size="${size}"${weightAttr} font-family="${FONT}">${escapeXml(content)}</text>`;
+function svgText(
+  { x, y, fill, size, weight, anchor = "middle" },
+  content,
+) {
+  const weightAttribute = weight
+    ? ` font-weight="${weight}"`
+    : "";
+
+  return `<text x="${x}" y="${y}" text-anchor="${anchor}" fill="${fill}" font-size="${size}"${weightAttribute} font-family="${FONT}">${escapeXml(content)}</text>`;
 }
 
 function renderSvg(stats, themeName) {
-  const t = THEMES[themeName];
-  const L = LAYOUT;
+  const theme = THEMES[themeName];
+  const layout = LAYOUT;
 
-  // Derived geometry
-  const gridRight = L.pad + L.cols * L.cellW + (L.cols - 1) * L.cellGap;
-  const summaryX = gridRight + L.summaryGap + L.summaryW / 2; // centre of summary column
-  const w = gridRight + L.summaryGap + L.summaryW + L.pad;
-  const h = L.height;
+  const gridRight =
+    layout.pad +
+    layout.cols * layout.cellW +
+    (layout.cols - 1) * layout.cellGap;
 
-  // Personal-best grid: label on top, WPM in the middle, accuracy underneath.
-  // Every text in a cell shares the same centre x, and every cell in a row
-  // shares the same baselines.
-  const cellsSvg = CELL_MODES.map(([label, mode], i) => {
-    const { wpm, acc } = stats[mode];
-    const x = L.pad + (i % L.cols) * (L.cellW + L.cellGap) + L.cellW / 2;
-    const labelY = L.rowLabelY[Math.floor(i / L.cols)];
-    const wpmStr = wpm != null ? String(wpm) : "—";
-    const accStr = acc != null ? `${acc}%` : "—";
+  const summaryX =
+    gridRight +
+    layout.summaryGap +
+    layout.summaryW / 2;
+
+  const width =
+    gridRight +
+    layout.summaryGap +
+    layout.summaryW +
+    layout.pad;
+
+  const height = layout.height;
+
+  const cellsSvg = CELL_MODES.map(([label, mode], index) => {
+    const { wpm, words, acc } = stats[mode];
+
+    const x =
+      layout.pad +
+      (index % layout.cols) * (layout.cellW + layout.cellGap) +
+      layout.cellW / 2;
+
+    const labelY =
+      layout.rowLabelY[Math.floor(index / layout.cols)];
+
+    const wpmText = wpm != null ? String(wpm) : "—";
+    const wordsText = words != null ? `${words} words` : "—";
+    const accuracyText = acc != null ? `${acc}%` : "—";
 
     return [
-      svgText({ x, y: labelY, fill: t.label, size: 12 }, label),
-      svgText({ x, y: labelY + L.valueDy, fill: t.value, size: 28, weight: 700 }, wpmStr),
-      svgText({ x, y: labelY + L.accDy, fill: t.subtitle, size: 13 }, `${accStr} acc`),
+      svgText(
+        { x, y: labelY, fill: theme.label, size: 12 },
+        label,
+      ),
+      svgText(
+        {
+          x,
+          y: labelY + layout.valueDy,
+          fill: theme.value,
+          size: 26,
+          weight: 700,
+        },
+        wpmText,
+      ),
+      svgText(
+        {
+          x,
+          y: labelY + layout.wordsDy,
+          fill: theme.subtitle,
+          size: 11,
+        },
+        wordsText,
+      ),
+      svgText(
+        {
+          x,
+          y: labelY + layout.accDy,
+          fill: theme.subtitle,
+          size: 13,
+        },
+        `${accuracyText} acc`,
+      ),
     ].join("\n  ");
   }).join("\n\n  ");
 
-  // Right side summary: reuses the grid's row baselines so it lines up with it.
-  const [topY, bottomY] = L.rowLabelY;
+  const [topY, bottomY] = layout.rowLabelY;
+
   const summary = [
-    svgText({ x: summaryX, y: topY, fill: t.label, size: 11 }, "TESTS"),
-    svgText({ x: summaryX, y: topY + L.valueDy, fill: t.accent, size: 20, weight: 600 }, stats.completed),
-    svgText({ x: summaryX, y: bottomY, fill: t.label, size: 11 }, "TIME"),
-    svgText({ x: summaryX, y: bottomY + L.valueDy, fill: t.accent, size: 16, weight: 600 }, stats.timeTyping),
+    svgText(
+      { x: summaryX, y: topY, fill: theme.label, size: 11 },
+      "TESTS",
+    ),
+    svgText(
+      {
+        x: summaryX,
+        y: topY + layout.valueDy,
+        fill: theme.accent,
+        size: 20,
+        weight: 600,
+      },
+      stats.completed,
+    ),
+    svgText(
+      { x: summaryX, y: bottomY, fill: theme.label, size: 11 },
+      "TIME",
+    ),
+    svgText(
+      {
+        x: summaryX,
+        y: bottomY + layout.valueDy,
+        fill: theme.accent,
+        size: 16,
+        weight: 600,
+      },
+      stats.timeTyping,
+    ),
   ].join("\n  ");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for ${escapeXml(stats.name)}">
+<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for ${escapeXml(stats.name)}">
   <title>Monkeytype stats – ${escapeXml(stats.name)}</title>
-  <rect width="${w}" height="${h}" rx="8" fill="${t.bg}" stroke="${t.border}" stroke-width="1"/>
+  <rect width="${width}" height="${height}" rx="8" fill="${theme.bg}" stroke="${theme.border}" stroke-width="1"/>
 
-  <!-- header -->
-  <image href="${LOGOS[themeName]}" x="${L.pad}" y="${L.logoY}" width="${L.logoSize}" height="${L.logoSize}" preserveAspectRatio="xMidYMid meet"/>
-  ${svgText({ x: L.titleX, y: L.titleY, fill: t.title, size: 16, weight: 600, anchor: "start" }, "Monkeytype")}
-  ${svgText({ x: L.pad, y: L.subtitleY, fill: t.subtitle, size: 12, anchor: "start" }, `${stats.name} · personal bests`)}
+  <image href="${LOGOS[themeName]}" x="${layout.pad}" y="${layout.logoY}" width="${layout.logoSize}" height="${layout.logoSize}" preserveAspectRatio="xMidYMid meet"/>
 
-  <!-- divider -->
-  <line x1="${L.pad}" y1="${L.dividerY}" x2="${w - L.pad}" y2="${L.dividerY}" stroke="${t.border}" stroke-width="1"/>
+  ${svgText(
+    {
+      x: layout.titleX,
+      y: layout.titleY,
+      fill: theme.title,
+      size: 16,
+      weight: 600,
+      anchor: "start",
+    },
+    "Monkeytype",
+  )}
 
-  <!-- typing statistics -->
+  ${svgText(
+    {
+      x: layout.pad,
+      y: layout.subtitleY,
+      fill: theme.subtitle,
+      size: 12,
+      anchor: "start",
+    },
+    `${stats.name} · personal bests`,
+  )}
+
+  <line x1="${layout.pad}" y1="${layout.dividerY}" x2="${width - layout.pad}" y2="${layout.dividerY}" stroke="${theme.border}" stroke-width="1"/>
+
   ${cellsSvg}
 
-  <!-- right side summary -->
   ${summary}
 </svg>`;
 }
 
 async function main() {
   console.log(`Fetching Monkeytype profile for ${USERNAME}…`);
+
   const data = await fetchProfile(USERNAME);
   const stats = extractStats(data);
+
   console.log("Stats:", JSON.stringify(stats, null, 2));
 
   mkdirSync(ASSETS, { recursive: true });
 
   for (const theme of ["dark", "light"]) {
     const svg = renderSvg(stats, theme);
-    const out = join(ASSETS, `monkeytype-${theme}.svg`);
-    writeFileSync(out, svg, "utf8");
-    console.log(`Wrote ${out}`);
+    const output = join(ASSETS, `monkeytype-${theme}.svg`);
+
+    writeFileSync(output, svg, "utf8");
+    console.log(`Wrote ${output}`);
   }
 }
 
-main().catch((err) => {
-  console.error(err);
+main().catch((error) => {
+  console.error(error);
   process.exit(1);
 });
