@@ -15,6 +15,8 @@ const ASSETS = join(ROOT, "assets");
 const USERNAME = process.env.MONKEYTYPE_USERNAME || "TheMalevolentOne";
 const APE_KEY = process.env.MONKEYTYPE_APE_KEY || "";
 
+const FONT = "Segoe UI, Ubuntu, Sans-Serif";
+
 const THEMES = {
   dark: {
     bg: "#0d1117",
@@ -39,6 +41,43 @@ const THEMES = {
     card: "#f6f8fa",
   },
 };
+
+const LAYOUT = {
+  height: 180,
+  pad: 24, // outer padding, left / right
+
+  // Header
+  logoY: 14,
+  logoSize: 22,
+  titleX: 52, // logo right edge (46) + 6
+  titleY: 32,
+  subtitleY: 50,
+  dividerY: 60,
+
+  // Personal-best grid: `cols` columns, one row per entry in `rowLabelY`
+  cols: 4,
+  cellW: 60,
+  cellGap: 8,
+  rowLabelY: [79, 129], // baseline of the small label (15s, 10ws, …) in each row
+  valueDy: 23, // label baseline → big number baseline
+  accDy: 37, // label baseline → accuracy baseline
+
+  // Summary column (TESTS / TIME) to the right of the grid
+  summaryGap: 12,
+  summaryW: 80,
+};
+
+/** [label shown on the card, key in the API's personal bests] – laid out row by row. */
+const CELL_MODES = [
+  ["15s", "15"],
+  ["30s", "30"],
+  ["60s", "60"],
+  ["120s", "120"],
+  ["10ws", "10"],
+  ["25ws", "25"],
+  ["50ws", "50"],
+  ["100ws", "100"],
+];
 
 function formatTime(seconds) {
   if (!seconds || seconds <= 0) return "0m";
@@ -84,6 +123,7 @@ const LOGOS = {
   light: loadLogo("monkeytype_logo_light.svg", "image/svg+xml"),
 };
 
+/** Reduces the API profile to the numbers the card shows. */
 function extractStats(data) {
   const pb = data.personalBests?.time || {};
   const stats = data.typingStats || {};
@@ -114,63 +154,65 @@ function escapeXml(s) {
     .replace(/'/g, "&apos;");
 }
 
+/** One <text> element. `anchor` is "middle" for centred text, "start" for left-aligned. */
+function svgText({ x, y, fill, size, weight, anchor = "middle" }, content) {
+  const weightAttr = weight ? ` font-weight="${weight}"` : "";
+  return `<text x="${x}" y="${y}" text-anchor="${anchor}" fill="${fill}" font-size="${size}"${weightAttr} font-family="${FONT}">${escapeXml(content)}</text>`;
+}
+
 function renderSvg(stats, themeName) {
   const t = THEMES[themeName];
-  const w = 480;
-  const h = 180;
-  
-  
+  const L = LAYOUT;
 
-  const cells = [
-    { label: "15s", wpm: stats["15"].wpm, acc: stats["15"].acc },
-    { label: "30s", wpm: stats["30"].wpm, acc: stats["30"].acc },
-    { label: "60s", wpm: stats["60"].wpm, acc: stats["60"].acc },
-    { label: "120s", wpm: stats["120"].wpm, acc: stats["120"].acc },
-    { label: "10ws", wpm: stats["10"].wpm, acc: stats["10"].acc },
-    { label: "25ws", wpm: stats["25"].wpm, acc: stats["25"].acc },
-    { label: "50ws", wpm: stats["50"].wpm, acc: stats["50"].acc },
-    { label: "100ws", wpm: stats["100"].wpm, acc: stats["100"].acc },
-  ];
+  // Derived geometry
+  const gridRight = L.pad + L.cols * L.cellW + (L.cols - 1) * L.cellGap;
+  const summaryX = gridRight + L.summaryGap + L.summaryW / 2; // centre of summary column
+  const w = gridRight + L.summaryGap + L.summaryW + L.pad;
+  const h = L.height;
 
-  const cellW = 46;
-  const gap = 8;
-  const startX = 24;
-  const yWpm = 88;
-  const yAcc = 118;
-  const yLabel = 142;
+  // Personal-best grid: label on top, WPM in the middle, accuracy underneath.
+  // Every text in a cell shares the same centre x, and every cell in a row
+  // shares the same baselines.
+  const cellsSvg = CELL_MODES.map(([label, mode], i) => {
+    const { wpm, acc } = stats[mode];
+    const x = L.pad + (i % L.cols) * (L.cellW + L.cellGap) + L.cellW / 2;
+    const labelY = L.rowLabelY[Math.floor(i / L.cols)];
+    const wpmStr = wpm != null ? String(wpm) : "—";
+    const accStr = acc != null ? `${acc}%` : "—";
 
-  let cellsSvg = "";
-  cells.forEach((c, i) => {
-    const x = startX + i * (cellW + gap);
-    const wpmStr = c.wpm != null ? String(c.wpm) : "—";
-    const accStr = c.acc != null ? `${c.acc}%` : "—";
-    cellsSvg += `
-      <text x="${x + cellW / 2}" y="${yWpm}" text-anchor="middle" fill="${t.value}" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">${escapeXml(wpmStr)}</text>
-      <text x="${x + cellW / 2}" y="${yAcc}" text-anchor="middle" fill="${t.subtitle}" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">${escapeXml(accStr)} acc</text>
-      <text x="${x + cellW / 2}" y="${yLabel}" text-anchor="middle" fill="${t.label}" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">${escapeXml(c.label)}</text>
-    `;
-  });
+    return [
+      svgText({ x, y: labelY, fill: t.label, size: 12 }, label),
+      svgText({ x, y: labelY + L.valueDy, fill: t.value, size: 28, weight: 700 }, wpmStr),
+      svgText({ x, y: labelY + L.accDy, fill: t.subtitle, size: 13 }, `${accStr} acc`),
+    ].join("\n  ");
+  }).join("\n\n  ");
 
-  // Right side summary
-  const rightX = 425;
-  const summary = `
-    <text x="${rightX}" y="78" text-anchor="middle" fill="${t.label}" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">TESTS</text>
-    <text x="${rightX}" y="100" text-anchor="middle" fill="${t.accent}" font-size="20" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">${stats.completed}</text>
-    <text x="${rightX}" y="128" text-anchor="middle" fill="${t.label}" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">TIME</text>
-    <text x="${rightX}" y="148" text-anchor="middle" fill="${t.accent}" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">${escapeXml(stats.timeTyping)}</text>
-  `;
+  // Right side summary: reuses the grid's row baselines so it lines up with it.
+  const [topY, bottomY] = L.rowLabelY;
+  const summary = [
+    svgText({ x: summaryX, y: topY, fill: t.label, size: 11 }, "TESTS"),
+    svgText({ x: summaryX, y: topY + L.valueDy, fill: t.accent, size: 20, weight: 600 }, stats.completed),
+    svgText({ x: summaryX, y: bottomY, fill: t.label, size: 11 }, "TIME"),
+    svgText({ x: summaryX, y: bottomY + L.valueDy, fill: t.accent, size: 16, weight: 600 }, stats.timeTyping),
+  ].join("\n  ");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for ${escapeXml(stats.name)}">
   <title>Monkeytype stats – ${escapeXml(stats.name)}</title>
   <rect width="${w}" height="${h}" rx="8" fill="${t.bg}" stroke="${t.border}" stroke-width="1"/>
+
   <!-- header -->
-  <image href="${LOGOS[themeName]}" x="24" y="14" width="22" height="22" preserveAspectRatio="xMidYMid meet"/>
-  <text x="52" y="32" fill="${t.title}" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">Monkeytype</text>
-  <text x="24" y="50" fill="${t.subtitle}" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">${escapeXml(stats.name)} · personal bests</text>
+  <image href="${LOGOS[themeName]}" x="${L.pad}" y="${L.logoY}" width="${L.logoSize}" height="${L.logoSize}" preserveAspectRatio="xMidYMid meet"/>
+  ${svgText({ x: L.titleX, y: L.titleY, fill: t.title, size: 16, weight: 600, anchor: "start" }, "Monkeytype")}
+  ${svgText({ x: L.pad, y: L.subtitleY, fill: t.subtitle, size: 12, anchor: "start" }, `${stats.name} · personal bests`)}
+
   <!-- divider -->
-  <line x1="24" y1="60" x2="${w - 24}" y2="60" stroke="${t.border}" stroke-width="1"/>
+  <line x1="${L.pad}" y1="${L.dividerY}" x2="${w - L.pad}" y2="${L.dividerY}" stroke="${t.border}" stroke-width="1"/>
+
+  <!-- typing statistics -->
   ${cellsSvg}
+
+  <!-- right side summary -->
   ${summary}
 </svg>`;
 }
