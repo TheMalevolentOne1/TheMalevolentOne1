@@ -88,7 +88,7 @@ function extractStats(data) {
   const pb = data.personalBests?.time || {};
   const stats = data.typingStats || {};
 
-  const modes = ["15", "30", "60", "120"];
+  const modes = ["15", "30", "60", "120", "10", "25", "50", "100"];
   const results = {};
   for (const mode of modes) {
     const best = bestPb(pb[mode]);
@@ -123,7 +123,11 @@ function renderSvg(stats, themeName) {
     { label: "15s", wpm: stats["15"].wpm, acc: stats["15"].acc },
     { label: "30s", wpm: stats["30"].wpm, acc: stats["30"].acc },
     { label: "60s", wpm: stats["60"].wpm, acc: stats["60"].acc },
-    { label: "120s", wpm: stats["120"].wpm, acc: stats["120"].acc }
+    { label: "120s", wpm: stats["120"].wpm, acc: stats["120"].acc },
+    { label: "10ws", wpm: stats["10"].wpm, acc: stats["10"].acc },
+    { label: "25ws", wpm: stats["25"].wpm, acc: stats["25"].acc },
+    { label: "50ws", wpm: stats["50"].wpm, acc: stats["50"].acc },
+    { label: "100ws", wpm: stats["100"].wpm, acc: stats["100"].acc },
   ];
 
   const cellW = 80;
