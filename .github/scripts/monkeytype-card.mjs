@@ -1,8 +1,4 @@
 #!/usr/bin/env node
-/**
- * Generates Monkeytype stats SVGs (dark + light) for a GitHub profile README.
- * Uses the public profile endpoint – no ApeKey required for basic stats.
- */
 
 import { writeFileSync, mkdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -61,43 +57,66 @@ const LAYOUT = {
   summaryW: 80,
 };
 
+/*
+ * id       = internal identifier
+ * label    = text shown on the card
+ * category = Monkeytype API category
+ * mode     = Monkeytype API mode
+ */
 const CELL_MODES = [
-  ["15s", "15"],
-  ["30s", "30"],
-  ["60s", "60"],
-  ["120s", "120"],
-  ["10ws", "10"],
-  ["25ws", "25"],
-  ["50ws", "50"],
-  ["100ws", "100"],
+  { id: "15s", label: "15s", category: "time", mode: "15" },
+  { id: "30s", label: "30s", category: "time", mode: "30" },
+  { id: "60s", label: "60s", category: "time", mode: "60" },
+  { id: "120s", label: "120s", category: "time", mode: "120" },
+
+  { id: "15ws", label: "15ws", category: "words", mode: "15" },
+  { id: "25ws", label: "25ws", category: "words", mode: "25" },
+  { id: "50ws", label: "50ws", category: "words", mode: "50" },
+  { id: "100ws", label: "100ws", category: "words", mode: "100" },
 ];
 
 function formatTime(seconds) {
   if (!seconds || seconds <= 0) return "0m";
 
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
 
-  if (h > 0) return `${h}h ${m}m`;
-  return `${m}m`;
+  if (hours > 0) {
+    return `${hours}h ${minutes}m`;
+  }
+
+  return `${minutes}m`;
 }
 
 function bestPb(entries) {
-  if (!Array.isArray(entries) || entries.length === 0) return null;
+  if (!Array.isArray(entries) || entries.length === 0) {
+    return null;
+  }
 
   return entries.reduce((best, current) => {
     if (!best) return current;
-    if (current.wpm > best.wpm) return current;
-    if (current.wpm === best.wpm && current.acc > best.acc) {
+
+    if (Number(current.wpm) > Number(best.wpm)) {
       return current;
     }
+
+    if (
+      Number(current.wpm) === Number(best.wpm) &&
+      Number(current.acc) > Number(best.acc)
+    ) {
+      return current;
+    }
+
     return best;
   }, null);
 }
 
 async function fetchProfile(username) {
   const url = `https://api.monkeytype.com/users/${encodeURIComponent(username)}/profile`;
-  const headers = { Accept: "application/json" };
+
+  const headers = {
+    Accept: "application/json",
+  };
 
   if (APE_KEY) {
     headers.Authorization = `ApeKey ${APE_KEY}`;
@@ -115,7 +134,7 @@ async function fetchProfile(username) {
   const json = await response.json();
 
   if (!json.data) {
-    throw new Error("Unexpected API response shape");
+    throw new Error("Unexpected Monkeytype API response");
   }
 
   return json.data;
@@ -132,32 +151,42 @@ const LOGOS = {
 };
 
 function extractStats(data) {
-  const personalBests = data.personalBests?.time || {};
+  const personalBests = data.personalBests || {};
+  const timeBests = personalBests.time || {};
+  const wordBests = personalBests.words || {};
   const typingStats = data.typingStats || {};
 
-  const modes = ["15", "30", "60", "120", "10", "25", "50", "100"];
   const results = {};
 
-  for (const mode of modes) {
-    const best = bestPb(personalBests[mode]);
+  for (const cell of CELL_MODES) {
+    const source =
+      cell.category === "time"
+        ? timeBests[cell.mode]
+        : wordBests[cell.mode];
 
-    results[mode] = best
-      ? {
-          wpm: Math.round(best.wpm),
+    const best = bestPb(source);
 
-          // Timed modes: calculate words from WPM and duration.
-          // Word modes: use the configured number of words.
-          words: ["15", "30", "60", "120"].includes(mode)
-            ? Math.round((best.wpm * Number(mode)) / 60)
-            : Number(mode),
+    if (!best) {
+      results[cell.id] = {
+        wpm: null,
+        words: null,
+        acc: null,
+      };
+      continue;
+    }
 
-          acc: Math.round(best.acc),
-        }
-      : {
-          wpm: null,
-          words: null,
-          acc: null,
-        };
+    const wpm = Math.round(Number(best.wpm));
+
+    const words =
+      cell.category === "words"
+        ? Number(cell.mode)
+        : Math.round((Number(best.wpm) * Number(cell.mode)) / 60);
+
+    results[cell.id] = {
+      wpm,
+      words,
+      acc: Number(best.acc).toFixed(2),
+    };
   }
 
   return {
@@ -208,10 +237,8 @@ function renderSvg(stats, themeName) {
     layout.summaryW +
     layout.pad;
 
-  const height = layout.height;
-
-  const cellsSvg = CELL_MODES.map(([label, mode], index) => {
-    const { wpm, words, acc } = stats[mode];
+  const cellsSvg = CELL_MODES.map((cell, index) => {
+    const stat = stats[cell.id];
 
     const x =
       layout.pad +
@@ -221,25 +248,37 @@ function renderSvg(stats, themeName) {
     const labelY =
       layout.rowLabelY[Math.floor(index / layout.cols)];
 
-    const wpmText = wpm != null ? String(wpm) : "—";
-    const wordsText = words != null ? `${words} words` : "—";
-    const accuracyText = acc != null ? `${acc}%` : "—";
+    const wpmText =
+      stat.wpm != null ? `${stat.wpm} WPM` : "—";
+
+    const wordsText =
+      stat.words != null ? `${stat.words} words` : "—";
+
+    const accuracyText =
+      stat.acc != null ? `${stat.acc}% acc` : "—";
 
     return [
       svgText(
-        { x, y: labelY, fill: theme.label, size: 12 },
-        label,
+        {
+          x,
+          y: labelY,
+          fill: theme.label,
+          size: 12,
+        },
+        cell.label,
       ),
+
       svgText(
         {
           x,
           y: labelY + layout.valueDy,
           fill: theme.value,
-          size: 26,
+          size: 17,
           weight: 700,
         },
         wpmText,
       ),
+
       svgText(
         {
           x,
@@ -249,14 +288,15 @@ function renderSvg(stats, themeName) {
         },
         wordsText,
       ),
+
       svgText(
         {
           x,
           y: labelY + layout.accDy,
           fill: theme.subtitle,
-          size: 13,
+          size: 11,
         },
-        `${accuracyText} acc`,
+        accuracyText,
       ),
     ].join("\n  ");
   }).join("\n\n  ");
@@ -265,9 +305,15 @@ function renderSvg(stats, themeName) {
 
   const summary = [
     svgText(
-      { x: summaryX, y: topY, fill: theme.label, size: 11 },
+      {
+        x: summaryX,
+        y: topY,
+        fill: theme.label,
+        size: 11,
+      },
       "TESTS",
     ),
+
     svgText(
       {
         x: summaryX,
@@ -278,10 +324,17 @@ function renderSvg(stats, themeName) {
       },
       stats.completed,
     ),
+
     svgText(
-      { x: summaryX, y: bottomY, fill: theme.label, size: 11 },
+      {
+        x: summaryX,
+        y: bottomY,
+        fill: theme.label,
+        size: 11,
+      },
       "TIME",
     ),
+
     svgText(
       {
         x: summaryX,
@@ -295,11 +348,26 @@ function renderSvg(stats, themeName) {
   ].join("\n  ");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for ${escapeXml(stats.name)}">
-  <title>Monkeytype stats – ${escapeXml(stats.name)}</title>
-  <rect width="${width}" height="${height}" rx="8" fill="${theme.bg}" stroke="${theme.border}" stroke-width="1"/>
+<svg width="${width}" height="${LAYOUT.height}" viewBox="0 0 ${width} ${LAYOUT.height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for ${escapeXml(stats.name)}">
+  <title>Monkeytype stats - ${escapeXml(stats.name)}</title>
 
-  <image href="${LOGOS[themeName]}" x="${layout.pad}" y="${layout.logoY}" width="${layout.logoSize}" height="${layout.logoSize}" preserveAspectRatio="xMidYMid meet"/>
+  <rect
+    width="${width}"
+    height="${LAYOUT.height}"
+    rx="8"
+    fill="${theme.bg}"
+    stroke="${theme.border}"
+    stroke-width="1"
+  />
+
+  <image
+    href="${LOGOS[themeName]}"
+    x="${layout.pad}"
+    y="${layout.logoY}"
+    width="${layout.logoSize}"
+    height="${layout.logoSize}"
+    preserveAspectRatio="xMidYMid meet"
+  />
 
   ${svgText(
     {
@@ -321,10 +389,17 @@ function renderSvg(stats, themeName) {
       size: 12,
       anchor: "start",
     },
-    `${stats.name} · personal bests`,
+    `${stats.name} - personal bests`,
   )}
 
-  <line x1="${layout.pad}" y1="${layout.dividerY}" x2="${width - layout.pad}" y2="${layout.dividerY}" stroke="${theme.border}" stroke-width="1"/>
+  <line
+    x1="${layout.pad}"
+    y1="${layout.dividerY}"
+    x2="${width - layout.pad}"
+    y2="${layout.dividerY}"
+    stroke="${theme.border}"
+    stroke-width="1"
+  />
 
   ${cellsSvg}
 
@@ -333,7 +408,7 @@ function renderSvg(stats, themeName) {
 }
 
 async function main() {
-  console.log(`Fetching Monkeytype profile for ${USERNAME}…`);
+  console.log(`Fetching Monkeytype profile for ${USERNAME}...`);
 
   const data = await fetchProfile(USERNAME);
   const stats = extractStats(data);
