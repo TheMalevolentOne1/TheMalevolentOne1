@@ -118,6 +118,8 @@ function renderSvg(stats, themeName) {
   const t = THEMES[themeName];
   const w = 480;
   const h = 180;
+  
+  
 
   const cells = [
     { label: "15s", wpm: stats["15"].wpm, acc: stats["15"].acc },
@@ -130,8 +132,8 @@ function renderSvg(stats, themeName) {
     { label: "100ws", wpm: stats["100"].wpm, acc: stats["100"].acc },
   ];
 
-  const cellW = 80;
-  const gap = 10;
+  const cellW = 46;
+  const gap = 8;
   const startX = 24;
   const yWpm = 88;
   const yAcc = 118;
