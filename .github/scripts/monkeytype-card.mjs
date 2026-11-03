@@ -20,7 +20,7 @@ const THEMES = {
     title: "#e6edf3",
     subtitle: "#8b949e",
     label: "#8b949e",
-    value: "#56FF5A",
+    value: "#56ff5a",
     accent: "#3fb950",
   },
   light: {
@@ -35,34 +35,29 @@ const THEMES = {
 };
 
 const LAYOUT = {
-  height: 220,
-  pad: 24,
+  width: 760,
+  height: 260,
+  pad: 30,
 
-  logoY: 14,
-  logoSize: 22,
-  titleX: 52,
-  titleY: 32,
-  subtitleY: 50,
-  dividerY: 60,
+  logoY: 16,
+  logoSize: 24,
+  titleX: 62,
+  titleY: 36,
+  subtitleY: 59,
+  dividerY: 78,
 
   cols: 4,
-  cellW: 60,
-  cellGap: 8,
-  rowLabelY: [79, 154],
-  valueDy: 21,
-  wordsDy: 39,
-  accDy: 56,
+  cellW: 105,
+  cellGap: 12,
 
-  summaryGap: 12,
-  summaryW: 80,
+  rowLabelY: [105, 195],
+  valueDy: 27,
+  wordsDy: 53,
+  accDy: 74,
+
+  summaryX: 690,
 };
 
-/*
- * id       = internal identifier
- * label    = text shown on the card
- * category = Monkeytype API category
- * mode     = Monkeytype API mode
- */
 const CELL_MODES = [
   { id: "15s", label: "15s", category: "time", mode: "15" },
   { id: "30s", label: "30s", category: "time", mode: "30" },
@@ -81,11 +76,7 @@ function formatTime(seconds) {
   const hours = Math.floor(seconds / 3600);
   const minutes = Math.floor((seconds % 3600) / 60);
 
-  if (hours > 0) {
-    return `${hours}h ${minutes}m`;
-  }
-
-  return `${minutes}m`;
+  return hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
 }
 
 function bestPb(entries) {
@@ -126,6 +117,7 @@ async function fetchProfile(username) {
 
   if (!response.ok) {
     const body = await response.text().catch(() => "");
+
     throw new Error(
       `Monkeytype API ${response.status}: ${body.slice(0, 200)}`,
     );
@@ -159,33 +151,32 @@ function extractStats(data) {
   const results = {};
 
   for (const cell of CELL_MODES) {
-    const source =
+    const entries =
       cell.category === "time"
         ? timeBests[cell.mode]
         : wordBests[cell.mode];
 
-    const best = bestPb(source);
+    const best = bestPb(entries);
 
     if (!best) {
       results[cell.id] = {
-        wpm: null,
+        value: null,
         words: null,
-        acc: null,
+        accuracy: null,
       };
+
       continue;
     }
 
-    const wpm = Math.round(Number(best.wpm));
-
-    const words =
-      cell.category === "words"
-        ? Number(cell.mode)
-        : Math.round((Number(best.wpm) * Number(cell.mode)) / 60);
+    const wpm = Number(best.wpm);
 
     results[cell.id] = {
-      wpm,
-      words,
-      acc: Number(best.acc).toFixed(2),
+      value: Math.round(wpm),
+      words:
+        cell.category === "words"
+          ? Number(cell.mode)
+          : Math.round((wpm * Number(cell.mode)) / 60),
+      accuracy: Number(best.acc).toFixed(2),
     };
   }
 
@@ -221,22 +212,6 @@ function renderSvg(stats, themeName) {
   const theme = THEMES[themeName];
   const layout = LAYOUT;
 
-  const gridRight =
-    layout.pad +
-    layout.cols * layout.cellW +
-    (layout.cols - 1) * layout.cellGap;
-
-  const summaryX =
-    gridRight +
-    layout.summaryGap +
-    layout.summaryW / 2;
-
-  const width =
-    gridRight +
-    layout.summaryGap +
-    layout.summaryW +
-    layout.pad;
-
   const cellsSvg = CELL_MODES.map((cell, index) => {
     const stat = stats[cell.id];
 
@@ -248,14 +223,14 @@ function renderSvg(stats, themeName) {
     const labelY =
       layout.rowLabelY[Math.floor(index / layout.cols)];
 
-    const wpmText =
-      stat.wpm != null ? `${stat.wpm} WPM` : "—";
+    const valueText =
+      stat.value !== null ? String(stat.value) : "—";
 
     const wordsText =
-      stat.words != null ? `${stat.words} words` : "—";
+      stat.words !== null ? `${stat.words} words` : "—";
 
     const accuracyText =
-      stat.acc != null ? `${stat.acc}% acc` : "—";
+      stat.accuracy !== null ? `${stat.accuracy}% acc` : "—";
 
     return [
       svgText(
@@ -263,20 +238,21 @@ function renderSvg(stats, themeName) {
           x,
           y: labelY,
           fill: theme.label,
-          size: 12,
+          size: 14,
         },
         cell.label,
       ),
 
+      // Numeric value only. No WPM text.
       svgText(
         {
           x,
           y: labelY + layout.valueDy,
           fill: theme.value,
-          size: 17,
+          size: 28,
           weight: 700,
         },
-        wpmText,
+        valueText,
       ),
 
       svgText(
@@ -284,7 +260,7 @@ function renderSvg(stats, themeName) {
           x,
           y: labelY + layout.wordsDy,
           fill: theme.subtitle,
-          size: 11,
+          size: 13,
         },
         wordsText,
       ),
@@ -294,32 +270,30 @@ function renderSvg(stats, themeName) {
           x,
           y: labelY + layout.accDy,
           fill: theme.subtitle,
-          size: 11,
+          size: 12,
         },
         accuracyText,
       ),
     ].join("\n  ");
   }).join("\n\n  ");
 
-  const [topY, bottomY] = layout.rowLabelY;
-
   const summary = [
     svgText(
       {
-        x: summaryX,
-        y: topY,
+        x: layout.summaryX,
+        y: layout.rowLabelY[0],
         fill: theme.label,
-        size: 11,
+        size: 13,
       },
       "TESTS",
     ),
 
     svgText(
       {
-        x: summaryX,
-        y: topY + layout.valueDy,
+        x: layout.summaryX,
+        y: layout.rowLabelY[0] + layout.valueDy,
         fill: theme.accent,
-        size: 20,
+        size: 24,
         weight: 600,
       },
       stats.completed,
@@ -327,20 +301,20 @@ function renderSvg(stats, themeName) {
 
     svgText(
       {
-        x: summaryX,
-        y: bottomY,
+        x: layout.summaryX,
+        y: layout.rowLabelY[1],
         fill: theme.label,
-        size: 11,
+        size: 13,
       },
       "TIME",
     ),
 
     svgText(
       {
-        x: summaryX,
-        y: bottomY + layout.valueDy,
+        x: layout.summaryX,
+        y: layout.rowLabelY[1] + layout.valueDy,
         fill: theme.accent,
-        size: 16,
+        size: 20,
         weight: 600,
       },
       stats.timeTyping,
@@ -348,12 +322,19 @@ function renderSvg(stats, themeName) {
   ].join("\n  ");
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${width}" height="${LAYOUT.height}" viewBox="0 0 ${width} ${LAYOUT.height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for ${escapeXml(stats.name)}">
+<svg
+  width="${layout.width}"
+  height="${layout.height}"
+  viewBox="0 0 ${layout.width} ${layout.height}"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Monkeytype stats for ${escapeXml(stats.name)}"
+>
   <title>Monkeytype stats - ${escapeXml(stats.name)}</title>
 
   <rect
-    width="${width}"
-    height="${LAYOUT.height}"
+    width="${layout.width}"
+    height="${layout.height}"
     rx="8"
     fill="${theme.bg}"
     stroke="${theme.border}"
@@ -374,7 +355,7 @@ function renderSvg(stats, themeName) {
       x: layout.titleX,
       y: layout.titleY,
       fill: theme.title,
-      size: 16,
+      size: 18,
       weight: 600,
       anchor: "start",
     },
@@ -386,7 +367,7 @@ function renderSvg(stats, themeName) {
       x: layout.pad,
       y: layout.subtitleY,
       fill: theme.subtitle,
-      size: 12,
+      size: 13,
       anchor: "start",
     },
     `${stats.name} - personal bests`,
@@ -395,7 +376,7 @@ function renderSvg(stats, themeName) {
   <line
     x1="${layout.pad}"
     y1="${layout.dividerY}"
-    x2="${width - layout.pad}"
+    x2="${layout.width - layout.pad}"
     y2="${layout.dividerY}"
     stroke="${theme.border}"
     stroke-width="1"
