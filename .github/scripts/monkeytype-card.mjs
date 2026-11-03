@@ -45,6 +45,7 @@ const LAYOUT = {
   titleY: 36,
   subtitleY: 57,
   dividerY: 78,
+  rowDividerY: 190,
 
   cols: 4,
   cellW: 105,
@@ -378,6 +379,15 @@ function renderSvg(stats, themeName) {
     y1="${layout.dividerY}"
     x2="${layout.width - layout.pad}"
     y2="${layout.dividerY}"
+    stroke="${theme.border}"
+    stroke-width="1"
+  />
+
+  <line
+    x1="${layout.pad}"
+    y1="${layout.rowDividerY}"
+    x2="${width - layout.pad}"
+    y2="${layout.rowDividerY}"
     stroke="${theme.border}"
     stroke-width="1"
   />
