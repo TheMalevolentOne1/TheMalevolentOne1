@@ -60,10 +60,10 @@
   <text x="433.5" y="158" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">148 words</text>
   <text x="433.5" y="179" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">95.14% acc</text>
 
-  <text x="82.5" y="195" text-anchor="middle" fill="#656d76" font-size="14" font-family="Segoe UI, Ubuntu, Sans-Serif">15ws</text>
-  <text x="82.5" y="222" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
-  <text x="82.5" y="248" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
-  <text x="82.5" y="269" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="82.5" y="195" text-anchor="middle" fill="#656d76" font-size="14" font-family="Segoe UI, Ubuntu, Sans-Serif">10ws</text>
+  <text x="82.5" y="222" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">128</text>
+  <text x="82.5" y="248" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">10 words</text>
+  <text x="82.5" y="269" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">100.00% acc</text>
 
   <text x="199.5" y="195" text-anchor="middle" fill="#656d76" font-size="14" font-family="Segoe UI, Ubuntu, Sans-Serif">25ws</text>
   <text x="199.5" y="222" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">91</text>
