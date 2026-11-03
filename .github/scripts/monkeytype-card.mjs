@@ -43,7 +43,7 @@ const LAYOUT = {
   logoSize: 24,
   titleX: 62,
   titleY: 36,
-  subtitleY: 59,
+  subtitleY: 57,
   dividerY: 78,
 
   cols: 4,
