@@ -64,7 +64,7 @@ const CELL_MODES = [
   { id: "60s", label: "60s", category: "time", mode: "60" },
   { id: "120s", label: "120s", category: "time", mode: "120" },
 
-  { id: "15ws", label: "15ws", category: "words", mode: "15" },
+  { id: "10ws", label: "10ws", category: "words", mode: "10" },
   { id: "25ws", label: "25ws", category: "words", mode: "25" },
   { id: "50ws", label: "50ws", category: "words", mode: "50" },
   { id: "100ws", label: "100ws", category: "words", mode: "100" },
