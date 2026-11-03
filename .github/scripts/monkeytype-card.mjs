@@ -386,7 +386,7 @@ function renderSvg(stats, themeName) {
   <line
     x1="${layout.pad}"
     y1="${layout.rowDividerY}"
-    x2="${width - layout.pad}"
+    x2="${layout.width - layout.pad}"
     y2="${layout.rowDividerY}"
     stroke="${theme.border}"
     stroke-width="1"
