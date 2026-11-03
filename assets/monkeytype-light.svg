@@ -1,52 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="404" height="180" viewBox="0 0 404 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for TheMalevolentOne">
+<svg width="404" height="220" viewBox="0 0 404 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monkeytype stats for TheMalevolentOne">
   <title>Monkeytype stats – TheMalevolentOne</title>
-  <rect width="404" height="180" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <rect width="404" height="220" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
 
-  <!-- header -->
   <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIwIDE0LjRhLjguOCAwIDEgMSAwIDEuNmEuOC44IDAgMCAxIDAtMS42Wm0tMTEuMiAwaDQuOGEuOC44IDAgMSAxIDAgMS42SDguOGEuOC44IDAgMSAxIDAtMS42Wk03LjIgOS42YS44LjggMCAwIDEgLjguOFYxMmEuOC44IDAgMSAxLTEuNiAwdi0xLjZhLjguOCAwIDAgMSAuOC0uOFptLTMuOTk5Ljc1OUEyLjQgMi40IDAgMCAxIDcuMiA4LjYxMmEyLjQgMi40IDAgMCAxIDQgMS43ODhWMTJhLjguOCAwIDEgMS0xLjYgMHYtMS42YS44LjggMCAxIDAtMS42IDBWMTJhLjguOCAwIDEgMS0xLjYgMHYtMS42YS44LjggMCAxIDAtMS42IDBWMTJhLjguOCAwIDEgMS0xLjYgMHYtMS42bC4wMDEtLjA0MVpNMTcuNiAxMi44djIuNGEuOC44IDAgMSAxLTEuNiAwdi0yLjRoLTIuMzA2Yy0uNDkzIDAtLjg5NC0uMzU4LS44OTQtLjhjMC0uNDQyLjQwMS0uOC44OTQtLjhoNi4yMTJjLjQ5MyAwIC44OTQuMzU4Ljg5NC44YzAgLjQ0Mi0uNDAxLjgtLjg5NC44SDE3LjZaTTE2LjggOEgyMGEuOC44IDAgMSAxIDAgMS42aC0zLjJhLjguOCAwIDEgMSAwLTEuNlpNNCAxNC40aDEuNmEuOC44IDAgMSAxIDAgMS42SDRhLjguOCAwIDEgMSAwLTEuNlpNMTMuMiA4aC40YS44LjggMCAxIDEgMCAxLjZoLS40YS44LjggMCAxIDEgMC0xLjZaTTEuNiAxNC40SDBWOC44YzAtMi4yMDggMS43OTItNCA0LTRoMTZjMi4yMDggMCA0IDEuNzkyIDQgNHY2LjRjMCAyLjIwOC0xLjc5MiA0LTQgNEg0Yy0yLjIwOCAwLTQtMS43OTItNC00di0xLjZoMS42djEuNkEyLjQgMi40IDAgMCAwIDQgMTcuNmgxNmEyLjQgMi40IDAgMCAwIDIuNC0yLjRWOC44QTIuNCAyLjQgMCAwIDAgMjAgNi40SDRhMi40IDIuNCAwIDAgMC0yLjQgMi40djUuNloiLz48L3N2Zz4=" x="24" y="14" width="22" height="22" preserveAspectRatio="xMidYMid meet"/>
+
   <text x="52" y="32" text-anchor="start" fill="#1f2328" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">Monkeytype</text>
+
   <text x="24" y="50" text-anchor="start" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">TheMalevolentOne · personal bests</text>
 
-  <!-- divider -->
   <line x1="24" y1="60" x2="380" y2="60" stroke="#d0d7de" stroke-width="1"/>
 
-  <!-- typing statistics -->
   <text x="54" y="79" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">15s</text>
-  <text x="54" y="102" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">81</text>
-  <text x="54" y="116" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">97% acc</text>
+  <text x="54" y="100" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">81</text>
+  <text x="54" y="118" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">20 words</text>
+  <text x="54" y="135" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">97% acc</text>
 
   <text x="122" y="79" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">30s</text>
-  <text x="122" y="102" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
-  <text x="122" y="116" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">94% acc</text>
+  <text x="122" y="100" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
+  <text x="122" y="118" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">42 words</text>
+  <text x="122" y="135" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">94% acc</text>
 
   <text x="190" y="79" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">60s</text>
-  <text x="190" y="102" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
-  <text x="190" y="116" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">97% acc</text>
+  <text x="190" y="100" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">83</text>
+  <text x="190" y="118" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">83 words</text>
+  <text x="190" y="135" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">97% acc</text>
 
   <text x="258" y="79" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">120s</text>
-  <text x="258" y="102" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">74</text>
-  <text x="258" y="116" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">95% acc</text>
+  <text x="258" y="100" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">74</text>
+  <text x="258" y="118" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">148 words</text>
+  <text x="258" y="135" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">95% acc</text>
 
-  <text x="54" y="129" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">10ws</text>
-  <text x="54" y="152" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
-  <text x="54" y="166" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
+  <text x="54" y="154" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">10ws</text>
+  <text x="54" y="175" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="54" y="193" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="54" y="210" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
 
-  <text x="122" y="129" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">25ws</text>
-  <text x="122" y="152" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
-  <text x="122" y="166" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
+  <text x="122" y="154" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">25ws</text>
+  <text x="122" y="175" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="122" y="193" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="122" y="210" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
 
-  <text x="190" y="129" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">50ws</text>
-  <text x="190" y="152" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
-  <text x="190" y="166" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
+  <text x="190" y="154" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">50ws</text>
+  <text x="190" y="175" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="190" y="193" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="190" y="210" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
 
-  <text x="258" y="129" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">100ws</text>
-  <text x="258" y="152" text-anchor="middle" fill="#0969da" font-size="28" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
-  <text x="258" y="166" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
+  <text x="258" y="154" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">100ws</text>
+  <text x="258" y="175" text-anchor="middle" fill="#0969da" font-size="26" font-weight="700" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="258" y="193" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">—</text>
+  <text x="258" y="210" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">— acc</text>
 
-  <!-- right side summary -->
   <text x="340" y="79" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">TESTS</text>
-  <text x="340" y="102" text-anchor="middle" fill="#1a7f37" font-size="20" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">124</text>
-  <text x="340" y="129" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">TIME</text>
-  <text x="340" y="152" text-anchor="middle" fill="#1a7f37" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">1h 17m</text>
+  <text x="340" y="100" text-anchor="middle" fill="#1a7f37" font-size="20" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">124</text>
+  <text x="340" y="154" text-anchor="middle" fill="#656d76" font-size="11" font-family="Segoe UI, Ubuntu, Sans-Serif">TIME</text>
+  <text x="340" y="175" text-anchor="middle" fill="#1a7f37" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">1h 17m</text>
 </svg>
