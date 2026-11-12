@@ -279,26 +279,6 @@
 <br>
 
 <h3 align="center">
-  <!-- My Notes Collection Website -->
-  📚 My Notes Collection
-</h3>
-<p align="center">My collection of study notes, guides, and CTF write-ups covering cyber security, networking, and full-stack development.</p>
-
-<br>
-
-<p align="center">
-  <a href="https://themalevolentone1.github.io/" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=56FF5A">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Explore%20My%20Notes%20Collection-1C2526?style=for-the-badge&logo=mdnwebdocs&logoColor=007BFF" alt="Explore My Notes Collection" height="35">
-    </picture>
-  </a>
-</p>
-
-<br>
-
-<h3 align="center">
   <!-- Social Connections -->
   🌐 Connect with me:
 </h3>
