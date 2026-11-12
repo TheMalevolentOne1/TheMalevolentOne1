@@ -283,13 +283,6 @@
   🌐 Connect with me:
 </h3>
 <p align="center">
-  <a href="https://www.instagram.com/tm02504" target="_blank" rel="noopener noreferrer">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&amp;logo=instagram&amp;logoColor=56FF5A">
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&amp;logo=instagram&amp;logoColor=007BFF">
-      <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&amp;logo=instagram&amp;logoColor=007BFF" alt="Instagram Logo" height="30" width="120">
-    </picture>
-  </a>
   <a href="https://stackoverflow.com/users/17998613/the-malevolent-one" target="_blank" rel="noopener noreferrer">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Stack_Overflow-0A0A0A?style=for-the-badge&amp;logo=stackoverflow&amp;logoColor=56FF5A">
