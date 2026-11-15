@@ -85,7 +85,7 @@
     </picture>
   </a>
   <br>
-  <sub><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 6 hours.</a></sub>
+  <sub><a href="https://github.com/TheMalevolentOne1/TheMalevolentOne1/blob/main/.github/workflows/update-monkeytype.yml">Updates every 12 hours.</a></sub>
 </p>
 
 <br>
