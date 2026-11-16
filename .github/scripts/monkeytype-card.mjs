@@ -34,30 +34,39 @@ const THEMES = {
   },
 };
 
-const LAYOUT = {
-  width: 760,
-  height: 260,
-  pad: 30,
+const LAYOUT = (() => {
+  const l = {
+    pad: 30,
 
-  logoY: 16,
-  logoSize: 24,
-  titleX: 62,
-  titleY: 36,
-  subtitleY: 57,
-  dividerY: 78,
-  rowDividerY: 190,
+    logoY: 16,
+    logoSize: 24,
+    titleX: 62,
+    titleY: 36,
+    subtitleY: 57,
+    dividerY: 78,
 
-  cols: 4,
-  cellW: 105,
-  cellGap: 12,
+    cols: 4,
+    cellW: 105,
+    cellGap: 12,
 
-  rowLabelY: [111, 201],
-  valueDy: 27,
-  wordsDy: 51,
-  accDy: 72,
+    rowLabelY: [111, 201],
+    valueDy: 27,
+    wordsDy: 51,
+    accDy: 72,
 
-  summaryX: 690,
-};
+    summaryGap: 30,   // space between grid and TESTS/TIME column
+    summaryW: 80,     // width of the TESTS/TIME column
+  };
+
+  const gridRight = l.pad + l.cols * l.cellW + (l.cols - 1) * l.cellGap;
+
+  l.summaryX = gridRight + l.summaryGap + l.summaryW / 2;
+  l.width = gridRight + l.summaryGap + l.summaryW + l.pad;
+  l.rowDividerY = l.rowLabelY[0] + l.accDy + 9;
+  l.height = l.rowLabelY[1] + l.accDy + 20;
+
+  return l;
+})();
 
 const CELL_MODES = [
   { id: "15s", label: "15s", category: "time", mode: "15" },
