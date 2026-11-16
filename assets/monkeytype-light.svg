@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg
-  width="760"
-  height="260"
-  viewBox="0 0 760 260"
+  width="626"
+  height="293"
+  viewBox="0 0 626 293"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
   aria-label="Monkeytype stats for TheMalevolentOne"
@@ -10,8 +10,8 @@
   <title>Monkeytype stats - TheMalevolentOne</title>
 
   <rect
-    width="760"
-    height="260"
+    width="626"
+    height="293"
     rx="8"
     fill="#ffffff"
     stroke="#d0d7de"
@@ -34,7 +34,7 @@
   <line
     x1="30"
     y1="78"
-    x2="730"
+    x2="596"
     y2="78"
     stroke="#d0d7de"
     stroke-width="1"
@@ -42,8 +42,8 @@
 
   <line
     x1="30"
-    y1="190"
-    x2="730"    y2="190"
+    y1="192"
+    x2="596"    y2="192"
     stroke="#d0d7de"
     stroke-width="1"
   />
@@ -88,8 +88,8 @@
   <text x="433.5" y="252" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">100 words</text>
   <text x="433.5" y="273" text-anchor="middle" fill="#656d76" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">94.47% acc</text>
 
-  <text x="690" y="111" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">TESTS</text>
-  <text x="690" y="138" text-anchor="middle" fill="#1a7f37" font-size="24" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">124</text>
-  <text x="690" y="201" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">TIME</text>
-  <text x="690" y="228" text-anchor="middle" fill="#1a7f37" font-size="20" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">1h 17m</text>
+  <text x="556" y="111" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">TESTS</text>
+  <text x="556" y="138" text-anchor="middle" fill="#1a7f37" font-size="24" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">124</text>
+  <text x="556" y="201" text-anchor="middle" fill="#656d76" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">TIME</text>
+  <text x="556" y="228" text-anchor="middle" fill="#1a7f37" font-size="20" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">1h 17m</text>
 </svg>
